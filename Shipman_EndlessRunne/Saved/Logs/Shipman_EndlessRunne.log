@@ -1856,3 +1856,533 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Get StaticMesh
 [2018.09.12-04.15.55:814][938]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2018.09.12-04.15.55:846][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.09.12-04.15.55:875][940]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2018.09.12-04.20.49:825][862]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_Auto181D5E7DB4E60589A512097AC946FF55C.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/EndlessRunner_Auto1.umap'
+[2018.09.12-04.20.49:846][862]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner' took 0.088
+[2018.09.12-04.20.49:846][862]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2018.09.12-04.20.49:849][862]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunGameMode] ([1] browsable assets)...
+[2018.09.12-04.20.49:849][862]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunGameMode]
+[2018.09.12-04.20.49:922][862]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode_Auto11A15D35844F6E8AB2CF048A05AAED94F.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunGameMode_Auto1.uasset'
+[2018.09.12-04.20.49:923][862]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/UMG/RunHUD] ([1] browsable assets)...
+[2018.09.12-04.20.49:923][862]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/UMG/RunHUD]
+[2018.09.12-04.20.49:938][862]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunHUD_Auto1AF115EE44818809FE8DF5BB0930C2D54.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/UMG/RunHUD_Auto1.uasset'
+[2018.09.12-04.20.49:939][862]LogFileHelpers: Auto-saving content packages took 0.092
+[2018.09.12-04.23.01:665][627]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.23.01:843][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_475.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:845][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_429.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:845][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_428.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:845][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_427.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:845][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_426.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:845][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_425.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12649.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12648.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12647.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12646.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12645.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_479.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_478.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_477.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:850][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_476.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:888][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4299.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:889][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_231.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:897][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_439.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:897][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_438.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:897][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_437.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:897][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_436.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.01:897][627]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_435.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.23.03:531][780]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner5568B1304AC78217C2A040A3B4805DE1.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.23.03:571][780]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltDataEE5A5A32418939FC75FB9F93D517448E.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.12-04.23.04:147][837]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.23.04:173][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.23.04:173][837]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:23:04 PM)
+[2018.09.12-04.23.04:173][837]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.23.04:175][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001969s)
+[2018.09.12-04.23.04:176][837]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.23.04:176][837]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2018.09.12-04.23.04:176][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003341s)
+[2018.09.12-04.23.04:213][837]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.23.04:227][837]LogInit: FAudioDevice initialized.
+[2018.09.12-04.23.04:259][837]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.23.04:262][837]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.23.04
+[2018.09.12-04.23.04:263][837]LogWorld: Bringing up level for play took: 0.001459
+[2018.09.12-04.23.04:312][837]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.423
+[2018.09.12-04.23.09:497][435]Cmd: RestartLevel
+[2018.09.12-04.23.09:505][436]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.23.09:505][436]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.23.09:553][436]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.23.09:555][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001889s)
+[2018.09.12-04.23.09:556][436]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.23.09:556][436]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2018.09.12-04.23.09:556][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002779s)
+[2018.09.12-04.23.09:556][436]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.23.09:558][436]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.23.09
+[2018.09.12-04.23.09:558][436]LogWorld: Bringing up level for play took: 0.000810
+[2018.09.12-04.23.09:574][436]LogLoad: Took 0.069036 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.23.13:314][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.23.13:350][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.23.13:402][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.23.13:422][826]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2018.09.12-04.23.17:635][265]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacterE646CB124E31B9E66993AA8BD5E2B361.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.12-04.23.17:717][265]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameModeCD59F0F8498606CDD5BBB19931CE661D.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2018.09.12-04.23.17:763][265]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunHUD1DFD2FAD4EB5D5E9937844AB830409FD.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/UMG/RunHUD.uasset'
+[2018.09.12-04.24.12:222][418]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.24.12:415][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_235.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:417][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_221.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:424][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12669.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:424][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12668.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:424][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12667.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:424][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12666.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:424][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12665.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:468][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_225.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:471][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4303.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:476][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12687.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:476][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12686.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:477][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_489.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:478][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12685.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:478][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_486.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:478][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_488.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:478][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_485.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:478][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_487.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_459.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_455.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_458.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12689.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_457.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_456.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.12:480][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12688.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.15:252][711]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner885C69104E075208EE3C1C9A35130072.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.24.15:344][711]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltDataC2CEA7C244FB23C19B734085CE32687C.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.12-04.24.16:294][798]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.24.16:324][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.24.16:324][798]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:24:16 PM)
+[2018.09.12-04.24.16:324][798]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.24.16:326][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002171s)
+[2018.09.12-04.24.16:327][798]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.24.16:327][798]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2018.09.12-04.24.16:328][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003319s)
+[2018.09.12-04.24.16:363][798]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.24.16:377][798]LogInit: FAudioDevice initialized.
+[2018.09.12-04.24.16:409][798]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.24.16:410][798]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.24.16
+[2018.09.12-04.24.16:410][798]LogWorld: Bringing up level for play took: 0.000876
+[2018.09.12-04.24.16:465][798]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.575
+[2018.09.12-04.24.23:184][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.23:223][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.24.23:268][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.23:293][535]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2018.09.12-04.24.24:875][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.24.30:354][318]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.24.30:539][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_229.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:546][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_465.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12699.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_469.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12698.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_468.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12697.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_467.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_466.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:550][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12696.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:553][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_499.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:553][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_498.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:553][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12695.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:553][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_497.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:553][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_496.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:553][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_495.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:604][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_489.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:604][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_488.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:604][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_485.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:606][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12719.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:606][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12716.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:606][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12718.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:606][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12715.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:609][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_519.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:609][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_518.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:609][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_487.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:610][318]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_486.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:610][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12717.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:610][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_517.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:610][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_516.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.30:610][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_515.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.32:732][510]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.24.32:763][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.24.32:763][510]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:24:32 PM)
+[2018.09.12-04.24.32:763][510]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.24.32:765][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001892s)
+[2018.09.12-04.24.32:766][510]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.24.32:766][510]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2018.09.12-04.24.32:766][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003116s)
+[2018.09.12-04.24.32:807][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.24.32:821][510]LogInit: FAudioDevice initialized.
+[2018.09.12-04.24.32:854][510]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.24.32:857][510]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.24.32
+[2018.09.12-04.24.32:857][510]LogWorld: Bringing up level for play took: 0.001445
+[2018.09.12-04.24.32:914][510]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.025
+[2018.09.12-04.24.36:820][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.36:866][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.24.36:915][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.36:944][872]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2018.09.12-04.24.37:407][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.24.41:183][353]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.24.41:350][353]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_231.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:354][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4309.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:359][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12725.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:359][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12729.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:359][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12728.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:359][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12727.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:359][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12726.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:360][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_539.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:360][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_538.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:360][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_537.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:360][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_536.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:360][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_535.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:402][353]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_235.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:407][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12735.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_547.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_549.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_546.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_548.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12736.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12739.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12738.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_545.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.41:408][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12737.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.42:437][445]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.24.42:465][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.24.42:465][445]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:24:42 PM)
+[2018.09.12-04.24.42:465][445]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.24.42:467][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001879s)
+[2018.09.12-04.24.42:467][445]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.24.42:468][445]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2018.09.12-04.24.42:468][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003098s)
+[2018.09.12-04.24.42:507][445]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.24.42:520][445]LogInit: FAudioDevice initialized.
+[2018.09.12-04.24.42:551][445]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.24.42:552][445]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.24.42
+[2018.09.12-04.24.42:552][445]LogWorld: Bringing up level for play took: 0.000681
+[2018.09.12-04.24.42:600][445]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.71
+[2018.09.12-04.24.45:531][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.45:579][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.24.45:608][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.45:634][720]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2018.09.12-04.24.47:427][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.24.51:006][303]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.24.51:173][303]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:174][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_245.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:178][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4315.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:182][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12745.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:182][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12749.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:182][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12748.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:182][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12747.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:183][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12746.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:233][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_249.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:240][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4319.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:247][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12756.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:251][303]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_505.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_557.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_559.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_556.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_558.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_506.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_509.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12757.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_508.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_555.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_507.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12755.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12759.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.51:255][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12758.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.24.53:729][554]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.24.53:757][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.24.53:757][554]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:24:53 PM)
+[2018.09.12-04.24.53:757][554]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.24.53:760][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002903s)
+[2018.09.12-04.24.53:761][554]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.24.53:761][554]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2018.09.12-04.24.53:761][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003986s)
+[2018.09.12-04.24.53:799][554]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.24.53:811][554]LogInit: FAudioDevice initialized.
+[2018.09.12-04.24.53:845][554]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.24.53:847][554]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.24.53
+[2018.09.12-04.24.53:847][554]LogWorld: Bringing up level for play took: 0.001035
+[2018.09.12-04.24.53:883][554]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.006
+[2018.09.12-04.24.58:586][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.58:624][ 39]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.24.58:668][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.24.58:692][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2018.09.12-04.25.00:265][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.25.27:048][279]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.25.27:228][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_251.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:232][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_577.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:232][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_576.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:236][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12776.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:237][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_578.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:237][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_575.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_527.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_526.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_579.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12778.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12777.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_525.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12779.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12775.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_529.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:239][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_528.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:283][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4321.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:285][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_255.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:289][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_588.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:290][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_587.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:292][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12799.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_538.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_585.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12796.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12795.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_586.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_539.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_535.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_589.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12797.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12798.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_537.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.27:294][279]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_536.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.28:589][388]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner9148485F427392E2D24F7188C4910D1D.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.25.28:623][388]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltData453FB7F7475034EAC7BAD98865817A3B.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.12-04.25.29:231][446]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.25.29:263][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.25.29:263][446]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:25:29 PM)
+[2018.09.12-04.25.29:263][446]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.25.29:265][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001830s)
+[2018.09.12-04.25.29:266][446]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.25.29:266][446]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2018.09.12-04.25.29:266][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002832s)
+[2018.09.12-04.25.29:299][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.25.29:313][446]LogInit: FAudioDevice initialized.
+[2018.09.12-04.25.29:349][446]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.25.29:352][446]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.25.29
+[2018.09.12-04.25.29:353][446]LogWorld: Bringing up level for play took: 0.001474
+[2018.09.12-04.25.29:405][446]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.485
+[2018.09.12-04.25.37:299][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.25.37:337][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.25.37:368][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.25.37:400][330]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2018.09.12-04.25.38:819][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.25.49:027][672]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.25.49:194][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4325.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:196][672]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_247.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:202][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_595.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:202][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_597.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:202][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_596.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:202][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_599.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:202][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_598.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:245][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4329.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:249][672]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_548.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:253][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12809.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_618.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12806.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12805.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_619.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_547.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_615.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_549.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_546.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_545.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12807.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12808.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_617.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.49:257][672]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_616.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.25.50:805][820]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.25.50:837][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.25.50:837][820]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:25:50 PM)
+[2018.09.12-04.25.50:837][820]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.25.50:839][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001863s)
+[2018.09.12-04.25.50:840][820]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.25.50:840][820]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2018.09.12-04.25.50:840][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002922s)
+[2018.09.12-04.25.50:880][820]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.25.50:893][820]LogInit: FAudioDevice initialized.
+[2018.09.12-04.25.50:928][820]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.25.50:929][820]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.25.50
+[2018.09.12-04.25.50:930][820]LogWorld: Bringing up level for play took: 0.000702
+[2018.09.12-04.25.50:966][820]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.076
+[2018.09.12-04.25.51:483][851]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-04.25.52:316][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.25.55:117][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.25.55:161][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.25.55:192][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.25.55:247][234]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2018.09.12-04.25.57:220][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.27.55:661][739]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.27.55:832][739]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_253.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:838][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12825.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_637.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_636.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_638.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12827.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_635.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12826.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_639.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12829.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:840][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12828.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:886][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4333.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:890][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_648.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:894][739]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_557.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:894][739]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_556.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12838.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_558.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12839.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_555.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_647.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12835.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_649.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_646.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_559.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_645.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12837.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.55:899][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12836.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.27.56:908][828]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.27.56:936][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.27.56:936][828]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:27:56 PM)
+[2018.09.12-04.27.56:936][828]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.27.56:938][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002115s)
+[2018.09.12-04.27.56:939][828]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.27.56:939][828]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2018.09.12-04.27.56:939][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003190s)
+[2018.09.12-04.27.56:981][828]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.27.56:993][828]LogInit: FAudioDevice initialized.
+[2018.09.12-04.27.57:022][828]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.27.57:023][828]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.27.57
+[2018.09.12-04.27.57:023][828]LogWorld: Bringing up level for play took: 0.000677
+[2018.09.12-04.27.57:068][828]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.821
+[2018.09.12-04.28.01:618][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.28.01:657][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.28.01:688][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.28.01:721][330]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2018.09.12-04.28.02:605][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.28.08:050][ 13]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner854FE10147E50B0067D5EC9F32AEF6E2.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.28.08:089][ 13]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltDataDEE424E649D746AE094BDC8680B5CCAE.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.12-04.28.08:759][ 77]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.28.08:782][ 77]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.12-04.28.08:799][ 77]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.09.12-04.28.08:921][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_257.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:927][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_657.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12857.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12856.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12855.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_655.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_656.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_658.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_659.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12859.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.08:932][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12858.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:006][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_261.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:012][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_575.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:017][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12879.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_677.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_679.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_578.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12878.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_675.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_576.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_678.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_676.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12875.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:018][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_577.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:019][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12876.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:019][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12877.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:019][ 77]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_579.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.09:101][ 77]LogPlayLevel: PlayLevel: Blueprint regeneration took 318 ms (1 blueprints)
+[2018.09.12-04.28.09:101][ 77]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:28:09 PM)
+[2018.09.12-04.28.09:101][ 77]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.28.09:103][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002256s)
+[2018.09.12-04.28.09:104][ 77]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.28.09:104][ 77]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2018.09.12-04.28.09:104][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003258s)
+[2018.09.12-04.28.09:142][ 77]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.28.09:155][ 77]LogInit: FAudioDevice initialized.
+[2018.09.12-04.28.09:188][ 77]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.28.09:190][ 77]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.28.09
+[2018.09.12-04.28.09:191][ 77]LogWorld: Bringing up level for play took: 0.001476
+[2018.09.12-04.28.09:256][ 77]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.367
+[2018.09.12-04.28.12:959][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.28.12:996][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.28.13:025][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.28.13:058][498]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2018.09.12-04.28.13:724][577]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.28.13:913][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_263.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:921][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_598.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:922][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_599.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:922][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_595.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:922][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_596.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:927][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12897.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:927][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12899.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:927][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12896.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:927][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12895.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_689.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_686.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12898.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_687.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_685.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_597.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:931][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_688.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:987][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_265.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:991][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_616.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:992][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_618.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12916.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12919.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_619.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_617.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_615.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12915.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12917.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.13:996][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12918.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.15:499][714]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.28.15:525][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.28.15:525][714]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:28:15 PM)
+[2018.09.12-04.28.15:525][714]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.28.15:528][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002724s)
+[2018.09.12-04.28.15:529][714]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.28.15:529][714]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2018.09.12-04.28.15:529][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003670s)
+[2018.09.12-04.28.15:568][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.28.15:580][714]LogInit: FAudioDevice initialized.
+[2018.09.12-04.28.15:612][714]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.28.15:614][714]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.28.15
+[2018.09.12-04.28.15:615][714]LogWorld: Bringing up level for play took: 0.001753
+[2018.09.12-04.28.15:668][714]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.222
+[2018.09.12-04.28.19:554][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.28.19:604][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.28.19:635][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.28.19:661][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2018.09.12-04.28.20:277][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.28.25:565][693]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.28.25:768][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_627.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:768][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_629.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12938.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12936.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12939.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_628.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_626.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_625.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:772][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12937.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:775][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_705.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:776][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_709.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:776][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_708.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:776][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_707.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:776][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_706.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:776][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12935.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:823][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_648.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:823][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_646.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:825][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12959.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:825][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12958.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:825][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_649.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:825][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12957.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:825][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12955.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_725.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_727.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_728.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12956.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_647.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_645.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_726.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.25:827][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_729.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.28.51:813][492]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner568F30864359FB093EB239B2C9790020.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.28.51:834][492]LogFileHelpers: Saving map 'EndlessRunner' took 0.202
+[2018.09.12-04.28.51:903][492]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacter984326BC4BBA34400717B483696D3C92.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
