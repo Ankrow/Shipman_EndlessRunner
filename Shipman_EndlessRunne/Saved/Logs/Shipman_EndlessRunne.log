@@ -1272,3 +1272,587 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Get StaticMesh
 [2018.09.12-03.42.34:253][395]Cmd: TRANSACTION UNDO
 [2018.09.12-03.42.34:253][395]LogEditorTransaction: Undo Delete selection
 [2018.09.12-03.42.35:623][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-03.46.28:322][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-03.46.29:512][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-03.46.30:124][ 42]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner72BF617B4456BDC9ADBF888BD272C34A.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-03.46.30:141][ 42]LogFileHelpers: Saving map 'EndlessRunner' took 0.625
+[2018.09.12-03.46.30:203][ 42]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacterD0C15C234208D5F105938DAF2140A418.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.12-03.49.36:065][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.49.38:520][514]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.12-03.49.49:315][320]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Iten.PackageMetaData'
+[2018.09.12-03.49.49:315][320]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Item.SKEL_BP_Item_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Iten.PackageMetaData'
+[2018.09.12-03.49.49:315][320]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Iten.PackageMetaData'
+[2018.09.12-03.49.49:315][320]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Iten.PackageMetaData'
+[2018.09.12-03.49.49:315][320]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Iten.PackageMetaData'
+[2018.09.12-03.49.49:315][320]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BP_Iten.PackageMetaData'
+[2018.09.12-03.49.49:343][320]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BP_ItemA147F2464B973912562FC4BE9F655A29.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BP_Item.uasset'
+[2018.09.12-03.49.50:501][370]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item
+[2018.09.12-03.50.03:144][759]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-03.50.05:056][987]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-03.50.10:567][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.50.53:020][133]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-03.51.09:647][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.51.41:868][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.51.49:631][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.51.55:338][690]BlueprintLog: New page: Compile BP_Item
+[2018.09.12-03.52.33:308][469]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-03.52.45:725][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.53.15:557][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.53.20:852][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.53.43:089][ 83]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.12-03.55.22:272][819]BlueprintLog: New page: Compile BPFloorTile
+[2018.09.12-03.55.27:926][401]LogTemp: Repeating last play command: Simulate
+[2018.09.12-03.55.27:953][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-03.55.27:953][401]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 7:55:27 PM)
+[2018.09.12-03.55.27:953][401]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-03.55.27:955][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002117s)
+[2018.09.12-03.55.27:956][401]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-03.55.27:956][401]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.09.12-03.55.27:956][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003070s)
+[2018.09.12-03.55.27:992][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-03.55.28:005][401]LogInit: FAudioDevice initialized.
+[2018.09.12-03.55.28:037][401]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-03.55.28:039][401]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.11-23.55.28
+[2018.09.12-03.55.28:040][401]LogWorld: Bringing up level for play took: 0.001810
+[2018.09.12-03.55.28:082][401]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.192
+[2018.09.12-03.55.32:003][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-03.55.32:040][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-03.55.32:093][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-03.55.32:116][854]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2018.09.12-03.55.59:416][875]BlueprintLog: New page: Compile BPFloorTile
+[2018.09.12-03.56.03:293][252]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner24281DBC45A18639C3E56CB4E412A395.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-03.56.03:313][252]LogFileHelpers: Saving map 'EndlessRunner' took 0.166
+[2018.09.12-03.56.03:530][252]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTile859AC8924819A02868C56D96FCF00522.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTile.uasset'
+[2018.09.12-03.56.03:652][252]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BP_Item447D22404D8A7E8A43BEC3BDC607726D.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BP_Item.uasset'
+[2018.09.12-03.56.04:187][295]LogTemp: Repeating last play command: Simulate
+[2018.09.12-03.56.04:212][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-03.56.04:212][295]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 7:56:04 PM)
+[2018.09.12-03.56.04:212][295]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-03.56.04:215][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2018.09.12-03.56.04:216][295]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-03.56.04:216][295]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2018.09.12-03.56.04:216][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003695s)
+[2018.09.12-03.56.04:251][295]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-03.56.04:264][295]LogInit: FAudioDevice initialized.
+[2018.09.12-03.56.04:299][295]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-03.56.04:304][295]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.11-23.56.04
+[2018.09.12-03.56.04:321][295]LogWorld: Bringing up level for play took: 0.020715
+[2018.09.12-03.56.04:413][295]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.523
+[2018.09.12-03.56.04:477][296]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087468 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_2', movement 'Walking'
+[2018.09.12-03.56.08:050][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-03.56.08:094][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-03.56.08:123][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-03.56.08:149][530]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2018.09.12-03.56.16:972][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:972][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:972][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:972][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:972][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:976][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:976][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:976][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:976][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:976][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:981][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:981][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:981][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:981][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.16:981][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:001][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:001][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:001][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_56.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:001][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:001][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:005][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:005][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:005][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:005][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_56.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:005][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:008][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_69.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:008][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_68.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:008][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_67.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:008][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_66.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:008][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:028][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:028][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_88.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:028][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_87.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:028][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_86.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:028][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_85.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:032][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:032][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_78.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:032][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:032][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_76.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:032][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:037][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:037][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_78.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:037][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:037][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_76.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.17:037][307]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:000][652]BlueprintLog: New page: Compile BP_Item
+[2018.09.12-03.56.21:149][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_99.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:150][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_98.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:150][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_97.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:150][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_96.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:150][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:154][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:154][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_88.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:154][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_87.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:154][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_86.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:154][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_85.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:159][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:159][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_88.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:159][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_87.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:159][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_86.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:159][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_85.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:165][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_109.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:165][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_108.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:165][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_107.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:165][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_106.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:165][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_105.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:170][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_99.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:170][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_98.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:170][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_97.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:170][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_96.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:170][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:174][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_99.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:174][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_98.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:174][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_97.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:174][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_96.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.21:174][652]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-03.56.23:017][796]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunnerBF01869A4D7E8753AF5E4BA30ED4814C.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-03.56.23:072][796]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltDataD3C8947C4266C9FECC4DE690D077A81B.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.12-03.56.24:661][926]LogTemp: Repeating last play command: Simulate
+[2018.09.12-03.56.24:681][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-03.56.24:681][926]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 7:56:24 PM)
+[2018.09.12-03.56.24:681][926]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-03.56.24:683][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2018.09.12-03.56.24:684][926]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-03.56.24:684][926]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.09.12-03.56.24:684][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003430s)
+[2018.09.12-03.56.24:718][926]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-03.56.24:731][926]LogInit: FAudioDevice initialized.
+[2018.09.12-03.56.24:761][926]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-03.56.24:763][926]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.11-23.56.24
+[2018.09.12-03.56.24:763][926]LogWorld: Bringing up level for play took: 0.001780
+[2018.09.12-03.56.24:816][926]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.926
+[2018.09.12-03.56.27:233][104]Cmd: RestartLevel
+[2018.09.12-03.56.27:244][105]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-03.56.27:258][105]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-03.56.27:293][105]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-03.56.27:295][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002488s)
+[2018.09.12-03.56.27:296][105]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-03.56.27:296][105]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.09.12-03.56.27:296][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003356s)
+[2018.09.12-03.56.27:296][105]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-03.56.27:298][105]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.11-23.56.27
+[2018.09.12-03.56.27:299][105]LogWorld: Bringing up level for play took: 0.001831
+[2018.09.12-03.56.27:321][105]LogLoad: Took 0.063096 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-03.56.32:042][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-03.56.32:084][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-03.56.32:116][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-03.56.32:143][444]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2018.09.12-03.56.44:223][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.56.53:009][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-03.56.53:124][350]BlueprintLog: New page: Compile BPFloorTile
+[2018.09.12-03.57.22:127][505]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTile112236CE48CD31601DE80F994D9F0A96.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTile.uasset'
+[2018.09.12-04.00.11:971][767]BlueprintLog: New page: Compile BPFloorTile
+[2018.09.12-04.00.14:636][927]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunnerF893D2A043EB60A042065D86B9D3FA98.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.00.14:670][927]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltData5C4C87414D9122FDF110FD84F68C77E3.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.12-04.00.15:823][ 23]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.00.15:857][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.15:857][ 23]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:15 PM)
+[2018.09.12-04.00.15:857][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.15:860][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002656s)
+[2018.09.12-04.00.15:861][ 23]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.15:861][ 23]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2018.09.12-04.00.15:861][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003735s)
+[2018.09.12-04.00.15:895][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.15:909][ 23]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.15:939][ 23]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.15:943][ 23]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.15
+[2018.09.12-04.00.15:944][ 23]LogWorld: Bringing up level for play took: 0.003269
+[2018.09.12-04.00.16:000][ 23]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.111
+[2018.09.12-04.00.17:949][140]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-04.00.21:716][442]Cmd: RestartLevel
+[2018.09.12-04.00.21:724][443]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.00.21:731][443]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.00.21:765][443]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.21:768][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002692s)
+[2018.09.12-04.00.21:769][443]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.21:769][443]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2018.09.12-04.00.21:769][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003659s)
+[2018.09.12-04.00.21:769][443]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.21:771][443]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.21
+[2018.09.12-04.00.21:771][443]LogWorld: Bringing up level for play took: 0.001719
+[2018.09.12-04.00.21:793][443]LogLoad: Took 0.062735 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.00.25:802][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.00.25:896][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.25:933][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.25:963][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.26:002][676]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2018.09.12-04.00.26:607][729]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.00.26:637][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.26:637][729]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:26 PM)
+[2018.09.12-04.00.26:637][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.26:640][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002567s)
+[2018.09.12-04.00.26:641][729]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.26:641][729]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2018.09.12-04.00.26:641][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003460s)
+[2018.09.12-04.00.26:675][729]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.26:688][729]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.26:719][729]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.26:721][729]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.26
+[2018.09.12-04.00.26:721][729]LogWorld: Bringing up level for play took: 0.001680
+[2018.09.12-04.00.26:768][729]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.879
+[2018.09.12-04.00.27:453][761]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-04.00.28:476][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.00.28:579][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.28:623][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.28:670][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.28:688][836]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2018.09.12-04.00.29:256][886]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.00.29:269][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.29:269][886]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:29 PM)
+[2018.09.12-04.00.29:270][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.29:272][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002555s)
+[2018.09.12-04.00.29:273][886]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.29:273][886]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2018.09.12-04.00.29:273][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003597s)
+[2018.09.12-04.00.29:306][886]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.29:320][886]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.29:348][886]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.29:350][886]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.29
+[2018.09.12-04.00.29:350][886]LogWorld: Bringing up level for play took: 0.001722
+[2018.09.12-04.00.29:421][886]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.47
+[2018.09.12-04.00.29:849][908]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-04.00.30:692][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.00.30:778][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.30:822][968]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.30:851][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.30:880][970]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2018.09.12-04.00.31:449][ 19]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.00.31:464][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.31:464][ 19]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:31 PM)
+[2018.09.12-04.00.31:464][ 19]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.31:466][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002342s)
+[2018.09.12-04.00.31:467][ 19]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.31:467][ 19]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2018.09.12-04.00.31:467][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003279s)
+[2018.09.12-04.00.31:500][ 19]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.31:513][ 19]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.31:545][ 19]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.31:547][ 19]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.31
+[2018.09.12-04.00.31:548][ 19]LogWorld: Bringing up level for play took: 0.001642
+[2018.09.12-04.00.31:609][ 19]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.28
+[2018.09.12-04.00.33:881][145]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-04.00.35:685][273]Cmd: RestartLevel
+[2018.09.12-04.00.35:695][274]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.00.35:705][274]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.00.35:741][274]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.35:744][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002424s)
+[2018.09.12-04.00.35:744][274]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.35:744][274]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.09.12-04.00.35:745][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003421s)
+[2018.09.12-04.00.35:745][274]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.35:747][274]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.35
+[2018.09.12-04.00.35:747][274]LogWorld: Bringing up level for play took: 0.001891
+[2018.09.12-04.00.35:768][274]LogLoad: Took 0.063762 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.00.35:785][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.00.41:597][681]Cmd: RestartLevel
+[2018.09.12-04.00.41:608][682]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.00.41:620][682]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.00.41:657][682]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.41:660][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002641s)
+[2018.09.12-04.00.41:661][682]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.41:661][682]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2018.09.12-04.00.41:661][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003709s)
+[2018.09.12-04.00.41:661][682]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.41:663][682]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.41
+[2018.09.12-04.00.41:664][682]LogWorld: Bringing up level for play took: 0.001773
+[2018.09.12-04.00.41:685][682]LogLoad: Took 0.065058 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.00.43:041][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.43:098][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.43:170][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.43:189][769]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2018.09.12-04.00.43:817][822]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.00.43:846][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.43:847][822]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:43 PM)
+[2018.09.12-04.00.43:847][822]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.43:849][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002491s)
+[2018.09.12-04.00.43:850][822]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.43:850][822]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2018.09.12-04.00.43:850][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003478s)
+[2018.09.12-04.00.43:884][822]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.43:897][822]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.43:931][822]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.43:934][822]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.43
+[2018.09.12-04.00.43:935][822]LogWorld: Bringing up level for play took: 0.003030
+[2018.09.12-04.00.43:999][822]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.109
+[2018.09.12-04.00.48:135][110]Cmd: RestartLevel
+[2018.09.12-04.00.48:147][111]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.00.48:159][111]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.00.48:194][111]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.48:197][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002521s)
+[2018.09.12-04.00.48:197][111]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.48:197][111]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2018.09.12-04.00.48:197][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003377s)
+[2018.09.12-04.00.48:197][111]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.48:200][111]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.48
+[2018.09.12-04.00.48:201][111]LogWorld: Bringing up level for play took: 0.002372
+[2018.09.12-04.00.48:222][111]LogLoad: Took 0.063214 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.00.48:895][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.48:949][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.48:978][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.49:002][156]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2018.09.12-04.00.49:796][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.00.49:895][228]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.00.49:926][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.49:926][228]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:49 PM)
+[2018.09.12-04.00.49:926][228]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.49:929][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002538s)
+[2018.09.12-04.00.49:929][228]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.49:930][228]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.09.12-04.00.49:930][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003490s)
+[2018.09.12-04.00.49:963][228]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.49:978][228]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.50:009][228]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.50:013][228]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.50
+[2018.09.12-04.00.50:014][228]LogWorld: Bringing up level for play took: 0.005128
+[2018.09.12-04.00.50:083][228]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.194
+[2018.09.12-04.00.50:778][266]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.12-04.00.52:473][371]Cmd: RestartLevel
+[2018.09.12-04.00.52:496][372]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.00.52:497][372]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.00.52:531][372]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.52:534][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002425s)
+[2018.09.12-04.00.52:534][372]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.52:535][372]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.09.12-04.00.52:535][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003396s)
+[2018.09.12-04.00.52:535][372]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.52:537][372]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.52
+[2018.09.12-04.00.52:537][372]LogWorld: Bringing up level for play took: 0.001821
+[2018.09.12-04.00.52:559][372]LogLoad: Took 0.061415 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.00.52:989][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.00.54:399][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.54:434][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.54:464][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.54:502][512]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2018.09.12-04.00.57:612][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.00.57:612][828]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:00:57 PM)
+[2018.09.12-04.00.57:612][828]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.00.57:615][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002606s)
+[2018.09.12-04.00.57:615][828]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.00.57:616][828]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2018.09.12-04.00.57:616][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003702s)
+[2018.09.12-04.00.57:649][828]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.00.57:661][828]LogInit: FAudioDevice initialized.
+[2018.09.12-04.00.57:699][828]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.00.57:705][828]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.00.57
+[2018.09.12-04.00.57:707][828]LogWorld: Bringing up level for play took: 0.005825
+[2018.09.12-04.00.57:782][828]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.107
+[2018.09.12-04.00.59:026][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.59:072][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.00.59:101][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.00.59:129][926]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2018.09.12-04.01.17:995][856]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2018.09.12-04.01.18:023][856]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.09.12-04.01.19:205][960]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.01.19:221][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.01.19:221][960]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:01:19 PM)
+[2018.09.12-04.01.19:221][960]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.01.19:223][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002374s)
+[2018.09.12-04.01.19:224][960]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.01.19:224][960]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2018.09.12-04.01.19:224][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003263s)
+[2018.09.12-04.01.19:259][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.01.19:272][960]LogInit: FAudioDevice initialized.
+[2018.09.12-04.01.19:307][960]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.01.19:308][960]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.01.19
+[2018.09.12-04.01.19:309][960]LogWorld: Bringing up level for play took: 0.001005
+[2018.09.12-04.01.19:370][960]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.519
+[2018.09.12-04.01.24:033][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.01.24:082][300]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.01.24:112][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.01.24:136][301]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2018.09.12-04.01.24:921][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.03.58:351][247]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.03.58:518][247]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4273.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.03.58:521][247]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_209.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.03.58:525][247]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_199.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.03.58:567][247]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_213.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.03.58:572][247]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4277.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.03.58:576][247]LogActorComponent: RegisterComponentWithWorld: (/Game/EndlessRunner.EndlessRunner:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_203.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.04.00:663][430]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.04.00:711][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.04.00:711][430]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:04:00 PM)
+[2018.09.12-04.04.00:711][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.04.00:714][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002746s)
+[2018.09.12-04.04.00:715][430]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.04.00:715][430]LogPlayLevel: PIE: World Init took: (0.001333s)
+[2018.09.12-04.04.00:715][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.004214s)
+[2018.09.12-04.04.00:758][430]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.04.00:773][430]LogInit: FAudioDevice initialized.
+[2018.09.12-04.04.00:804][430]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.04.00:806][430]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.04.00
+[2018.09.12-04.04.00:806][430]LogWorld: Bringing up level for play took: 0.001135
+[2018.09.12-04.04.00:841][430]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.951
+[2018.09.12-04.04.04:963][722]Cmd: RestartLevel
+[2018.09.12-04.04.04:977][723]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.04.04:990][723]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.04.05:028][723]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.04.05:030][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002154s)
+[2018.09.12-04.04.05:031][723]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.04.05:031][723]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.09.12-04.04.05:031][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003236s)
+[2018.09.12-04.04.05:031][723]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.04.05:033][723]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.04.05
+[2018.09.12-04.04.05:033][723]LogWorld: Bringing up level for play took: 0.000971
+[2018.09.12-04.04.05:054][723]LogLoad: Took 0.064010 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.04.14:930][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.04.15:112][414]Cmd: RestartLevel
+[2018.09.12-04.04.15:120][415]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.04.15:130][415]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.04.15:168][415]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.04.15:171][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2018.09.12-04.04.15:171][415]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.04.15:171][415]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2018.09.12-04.04.15:171][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003167s)
+[2018.09.12-04.04.15:171][415]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.04.15:173][415]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.04.15
+[2018.09.12-04.04.15:173][415]LogWorld: Bringing up level for play took: 0.000948
+[2018.09.12-04.04.15:196][415]LogLoad: Took 0.066395 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.04.16:211][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.04.16:251][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.04.16:281][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.04.16:315][491]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2018.09.12-04.07.36:934][458]BlueprintLog: New page: Compile BPFloorTile
+[2018.09.12-04.07.39:160][661]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.07.39:190][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.07.39:191][661]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:07:39 PM)
+[2018.09.12-04.07.39:191][661]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.07.39:193][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002512s)
+[2018.09.12-04.07.39:194][661]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.07.39:194][661]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2018.09.12-04.07.39:194][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003525s)
+[2018.09.12-04.07.39:232][661]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.07.39:246][661]LogInit: FAudioDevice initialized.
+[2018.09.12-04.07.39:279][661]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.07.39:282][661]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.07.39
+[2018.09.12-04.07.39:283][661]LogWorld: Bringing up level for play took: 0.001848
+[2018.09.12-04.07.39:327][661]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.562
+[2018.09.12-04.07.47:163][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.07.47:198][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.07.47:227][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.07.47:263][582]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2018.09.12-04.09.03:842][420]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.12-04.09.04:011][420]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_221.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.09.04:033][420]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_4287.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.09.12:409][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12636.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.09.12:409][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12635.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.09.12:409][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12637.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.09.12:409][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12639.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.09.12:409][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_12638.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.12-04.10.09:298][911]BlueprintLog: New page: Compile BP_Item
+[2018.09.12-04.10.11:212][ 94]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.10.11:234][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.10.11:234][ 94]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:10:11 PM)
+[2018.09.12-04.10.11:235][ 94]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.10.11:236][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001911s)
+[2018.09.12-04.10.11:237][ 94]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.10.11:237][ 94]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2018.09.12-04.10.11:237][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002781s)
+[2018.09.12-04.10.11:270][ 94]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.10.11:285][ 94]LogInit: FAudioDevice initialized.
+[2018.09.12-04.10.11:320][ 94]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.10.11:322][ 94]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.10.11
+[2018.09.12-04.10.11:323][ 94]LogWorld: Bringing up level for play took: 0.001222
+[2018.09.12-04.10.11:380][ 94]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.511
+[2018.09.12-04.10.16:027][583]Cmd: RestartLevel
+[2018.09.12-04.10.16:035][584]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.10.16:035][584]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.10.16:067][584]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.10.16:069][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001775s)
+[2018.09.12-04.10.16:070][584]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.10.16:070][584]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2018.09.12-04.10.16:070][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002607s)
+[2018.09.12-04.10.16:070][584]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.10.16:071][584]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.10.16
+[2018.09.12-04.10.16:072][584]LogWorld: Bringing up level for play took: 0.000711
+[2018.09.12-04.10.16:088][584]LogLoad: Took 0.052677 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.10.19:446][982]Cmd: RestartLevel
+[2018.09.12-04.10.19:454][983]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.10.19:454][983]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.10.19:487][983]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.10.19:489][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001844s)
+[2018.09.12-04.10.19:490][983]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.10.19:490][983]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.09.12-04.10.19:490][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002703s)
+[2018.09.12-04.10.19:490][983]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.10.19:491][983]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.10.19
+[2018.09.12-04.10.19:492][983]LogWorld: Bringing up level for play took: 0.000832
+[2018.09.12-04.10.19:505][983]LogLoad: Took 0.051886 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.10.22:863][384]Cmd: RestartLevel
+[2018.09.12-04.10.22:871][385]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.10.22:871][385]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.10.22:903][385]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.10.22:905][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
+[2018.09.12-04.10.22:905][385]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.10.22:906][385]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2018.09.12-04.10.22:906][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002515s)
+[2018.09.12-04.10.22:906][385]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.10.22:907][385]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.10.22
+[2018.09.12-04.10.22:907][385]LogWorld: Bringing up level for play took: 0.000615
+[2018.09.12-04.10.22:920][385]LogLoad: Took 0.049252 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.10.26:285][787]Cmd: RestartLevel
+[2018.09.12-04.10.26:293][788]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.12-04.10.26:293][788]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.12-04.10.26:323][788]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.10.26:325][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002005s)
+[2018.09.12-04.10.26:326][788]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.10.26:326][788]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2018.09.12-04.10.26:326][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002823s)
+[2018.09.12-04.10.26:326][788]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.10.26:327][788]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.10.26
+[2018.09.12-04.10.26:327][788]LogWorld: Bringing up level for play took: 0.000590
+[2018.09.12-04.10.26:341][788]LogLoad: Took 0.048670 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.12-04.10.29:371][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.10.29:405][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.10.29:435][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.10.29:473][148]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2018.09.12-04.10.42:895][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-04.10.43:886][494]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.12-04.10.44:105][494]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner5DBB469B4F8F3FB153464787FDE2D3F5.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.12-04.10.44:124][494]LogFileHelpers: Saving map 'EndlessRunner' took 0.233
+[2018.09.12-04.10.44:203][494]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacter304C90E743EE789A00EA37A332CE48A8.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.12-04.10.44:326][494]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileC4BE38FD437B205DD90D4D9614A6E3CF.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTile.uasset'
+[2018.09.12-04.10.44:412][494]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BP_ItemC7F5FB954C269B2CFEC85B8A6FAC9B6E.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BP_Item.uasset'
+[2018.09.12-04.10.51:551][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.12-04.11.33:884][591]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/UMG/RunHUD.RunHUD
+[2018.09.12-04.13.17:792][447]BlueprintLog: New page: Compile RunHUD
+[2018.09.12-04.13.56:315][270]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.12-04.14.22:666][387]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UUserWidget::AddToViewport' [Element not found.]
+[2018.09.12-04.14.27:940][ 14]BlueprintLog: New page: Compile RunGameMode
+[2018.09.12-04.14.27:958][ 14]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2018.09.12-04.14.28:182][ 14]LogBlueprint: Warning: [Compiler RunGameMode] [5567.17] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 242 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
+[2018.09.12-04.14.29:596][153]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.14.29:633][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.14.32:438][153]LogSlate: Window 'Message' being destroyed
+[2018.09.12-04.15.48:804][229]BlueprintLog: New page: Compile RunGameMode
+[2018.09.12-04.15.50:273][353]LogTemp: Repeating last play command: Simulate
+[2018.09.12-04.15.50:303][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-04.15.50:303][353]PIE: New page: SIE session: EndlessRunner (Sep 11, 2018, 8:15:50 PM)
+[2018.09.12-04.15.50:303][353]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.12-04.15.50:306][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002520s)
+[2018.09.12-04.15.50:306][353]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.12-04.15.50:307][353]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2018.09.12-04.15.50:307][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003630s)
+[2018.09.12-04.15.50:341][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-04.15.50:353][353]LogInit: FAudioDevice initialized.
+[2018.09.12-04.15.50:385][353]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.12-04.15.50:387][353]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.12-00.15.50
+[2018.09.12-04.15.50:387][353]LogWorld: Bringing up level for play took: 0.001053
+[2018.09.12-04.15.50:453][353]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.563
+[2018.09.12-04.15.55:775][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.15.55:814][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-04.15.55:846][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.12-04.15.55:875][940]LogPlayLevel: Display: Destroying online subsystem :Context_56
