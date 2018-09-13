@@ -867,3 +867,548 @@ LogInit: Object subsystem initialized
 [2018.09.13-20.26.53:110][380]LogPlayLevel: Display: Destroying online subsystem :Context_31
 [2018.09.13-20.26.54:431][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.09.13-20.26.55:864][700]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacterE1D51E8844C9592C8E59E69EDDB3D603.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.13-20.35.44:313][ 42]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTile.BPFloorTile
+[2018.09.13-20.46.57:126][628]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileUp.BPFloorTileUp
+[2018.09.13-20.47.15:593][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.47.45:873][183]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.13-20.47.55:410][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.49.15:297][535]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.49.15:709][535]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_Auto10667F2024C91F6ADFBE1E5ADDC86EAA2.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/EndlessRunner_Auto1.umap'
+[2018.09.13-20.49.15:713][535]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner' took 0.392
+[2018.09.13-20.49.15:714][535]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.392
+[2018.09.13-20.49.15:716][535]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BPFloorTile] ([1] browsable assets)...
+[2018.09.13-20.49.15:734][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTile.BPFloorTile]
+[2018.09.13-20.49.15:734][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BPFloorTile]
+[2018.09.13-20.49.15:785][535]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTile_Auto126EA827846022DDE76015A8EA726F05E.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BPFloorTile_Auto1.uasset'
+[2018.09.13-20.49.15:789][535]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BPFloorTileUp] ([1] browsable assets)...
+[2018.09.13-20.49.15:808][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileUp.BPFloorTileUp]
+[2018.09.13-20.49.15:808][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BPFloorTileUp]
+[2018.09.13-20.49.15:858][535]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileUp_Auto1FED7A3F148A660ECF6B4BF841F8A964E.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BPFloorTileUp_Auto1.uasset'
+[2018.09.13-20.49.15:860][535]LogFileHelpers: Auto-saving content packages took 0.145
+[2018.09.13-20.49.17:849][730]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.13-20.49.53:111][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.50.03:667][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.50.08:210][516]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileB91677854D7994286DCEFA899643FCE9.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTile.uasset'
+[2018.09.13-20.52.17:800][977]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.13-20.52.26:240][980]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-20.52.26:256][980]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a BPFloorTile_C, therefore ' Target ' must have a connection.
+[2018.09.13-20.52.26:256][980]LogBlueprint: Error: [Compiler RunGameMode] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.09.13-20.52.26:256][980]LogBlueprint: Error: [Compiler RunGameMode] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.09.13-20.52.26:573][980]LogBlueprint: Warning: [Compiler RunGameMode] [2822.99] Compile of RunGameMode failed. 3 Fatal Issue(s) 0 Warning(s) [in 333 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
+[2018.09.13-20.52.34:019][864]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-20.52.34:032][864]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a BPFloorTile_C, therefore ' Target ' must have a connection.
+[2018.09.13-20.52.34:213][864]LogBlueprint: Warning: [Compiler RunGameMode] [2830.63] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 194 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
+[2018.09.13-20.52.39:269][461]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-20.52.39:283][461]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a BPFloorTile_C, therefore ' Target ' must have a connection.
+[2018.09.13-20.52.39:453][461]LogBlueprint: Warning: [Compiler RunGameMode] [2835.87] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 184 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
+[2018.09.13-20.53.17:179][942]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-20.53.18:949][120]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunnerD6BD5A8A4D784EB22505D0B88ADE440B.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.13-20.53.18:990][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EndlessRunner_BuiltData" FILE="../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset" SILENT=true
+[2018.09.13-20.53.19:009][120]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltData1DF0DF094D1D247D3C7BD39577189BDE.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.13-20.53.20:221][263]LogTemp: Repeating last play command: Simulate
+[2018.09.13-20.53.20:241][263]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.13-20.53.20:253][263]LogPlayLevel: [PlayLevel] Compiling BPFloorTile before play...
+[2018.09.13-20.53.20:433][263]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (1 blueprints)
+[2018.09.13-20.53.20:434][263]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 12:53:20 PM)
+[2018.09.13-20.53.20:434][263]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-20.53.20:436][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001835s)
+[2018.09.13-20.53.20:436][263]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-20.53.20:437][263]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2018.09.13-20.53.20:437][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003026s)
+[2018.09.13-20.53.20:471][263]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-20.53.20:478][263]LogInit: FAudioDevice initialized.
+[2018.09.13-20.53.20:512][263]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-20.53.20:514][263]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-16.53.20
+[2018.09.13-20.53.20:514][263]LogWorld: Bringing up level for play took: 0.000665
+[2018.09.13-20.53.20:541][263]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.475
+[2018.09.13-20.53.29:569][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.53.29:604][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-20.53.29:634][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.53.29:669][245]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.09.13-20.53.41:300][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.54.22:250][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.54.28:237][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.54.35:276][ 37]BlueprintLog: New page: Compile BPFloorTile
+[2018.09.13-20.54.37:412][247]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner86C6A6A34837F0822715A8B8581EB2BD.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.13-20.54.37:449][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EndlessRunner_BuiltData" FILE="../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset" SILENT=true
+[2018.09.13-20.54.37:462][247]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltData9719531C4C9E824DAC4F578CF1AC85AB.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.13-20.54.38:115][323]LogTemp: Repeating last play command: Simulate
+[2018.09.13-20.54.38:140][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-20.54.38:140][323]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 12:54:38 PM)
+[2018.09.13-20.54.38:140][323]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-20.54.38:143][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002291s)
+[2018.09.13-20.54.38:143][323]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-20.54.38:144][323]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.09.13-20.54.38:144][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003201s)
+[2018.09.13-20.54.38:176][323]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-20.54.38:182][323]LogInit: FAudioDevice initialized.
+[2018.09.13-20.54.38:210][323]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-20.54.38:212][323]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-16.54.38
+[2018.09.13-20.54.38:212][323]LogWorld: Bringing up level for play took: 0.000883
+[2018.09.13-20.54.38:240][323]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.775
+[2018.09.13-20.54.44:869][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.54.44:963][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.54.45:004][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-20.54.45:032][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.54.45:066][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.09.13-20.59.07:676][476]LogSlate: Took 0.006372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.13-21.02.17:853][114]LogTemp: Repeating last play command: Simulate
+[2018.09.13-21.02.17:874][114]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.13-21.02.17:883][114]LogPlayLevel: [PlayLevel] Compiling RunGameMode before play...
+[2018.09.13-21.02.18:071][114]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
+[2018.09.13-21.02.18:071][114]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 1:02:18 PM)
+[2018.09.13-21.02.18:071][114]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.02.18:073][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002554s)
+[2018.09.13-21.02.18:075][114]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.02.18:075][114]LogPlayLevel: PIE: World Init took: (0.001834s)
+[2018.09.13-21.02.18:075][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.004617s)
+[2018.09.13-21.02.18:106][114]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.02.18:114][114]LogInit: FAudioDevice initialized.
+[2018.09.13-21.02.18:143][114]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.02.18:145][114]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.02.18
+[2018.09.13-21.02.18:145][114]LogWorld: Bringing up level for play took: 0.000911
+[2018.09.13-21.02.18:170][114]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.161
+[2018.09.13-21.02.25:722][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-21.02.26:903][967]Cmd: SELECT NONE
+[2018.09.13-21.02.28:746][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.02.28:838][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.02.28:890][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.02.28:910][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.09.13-21.02.29:580][121]LogTemp: Repeating last play command: Simulate
+[2018.09.13-21.02.29:600][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.02.29:600][121]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 1:02:29 PM)
+[2018.09.13-21.02.29:600][121]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.02.29:602][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002244s)
+[2018.09.13-21.02.29:603][121]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.02.29:603][121]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2018.09.13-21.02.29:603][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003242s)
+[2018.09.13-21.02.29:635][121]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.02.29:641][121]LogInit: FAudioDevice initialized.
+[2018.09.13-21.02.29:671][121]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.02.29:673][121]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.02.29
+[2018.09.13-21.02.29:674][121]LogWorld: Bringing up level for play took: 0.000843
+[2018.09.13-21.02.29:701][121]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.693
+[2018.09.13-21.02.30:850][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.02.30:890][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.02.30:935][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.02.30:953][245]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.09.13-21.02.42:754][651]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.02.42:767][651]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a BPFloorTile_C, therefore ' Target ' must have a connection.
+[2018.09.13-21.02.42:936][651]LogBlueprint: Warning: [Compiler RunGameMode] [3439.36] Compile of RunGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 181 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
+[2018.09.13-21.02.44:205][801]LogTemp: Repeating last play command: Simulate
+[2018.09.13-21.02.44:226][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.02.45:538][801]LogSlate: Window 'Message' being destroyed
+[2018.09.13-21.02.51:876][554]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.02.53:500][724]LogTemp: Repeating last play command: Simulate
+[2018.09.13-21.02.53:520][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.02.53:520][724]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 1:02:53 PM)
+[2018.09.13-21.02.53:520][724]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.02.53:523][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002402s)
+[2018.09.13-21.02.53:523][724]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.02.53:524][724]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2018.09.13-21.02.53:524][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003420s)
+[2018.09.13-21.02.53:556][724]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.02.53:562][724]LogInit: FAudioDevice initialized.
+[2018.09.13-21.02.53:596][724]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.02.53:598][724]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.02.53
+[2018.09.13-21.02.53:598][724]LogWorld: Bringing up level for play took: 0.000861
+[2018.09.13-21.02.53:625][724]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.616
+[2018.09.13-21.02.57:412][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-21.03.01:266][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.03.01:301][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.03.01:330][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.03.01:367][505]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.09.13-21.06.50:171][748]LogEditorTransaction: Undo Paste clipboard contents
+[2018.09.13-21.07.03:272][302]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.07.40:180][680]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.08.21:645][574]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.08.24:763][911]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode5F5A5DEF49A8A3BD59DA398F87C8E3CD.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2018.09.13-21.08.26:690][118]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner2E81D2ED4BA0AAB732175FAA387E0D47.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.13-21.08.26:729][118]LogFileHelpers: Saving map 'EndlessRunner' took 0.170
+[2018.09.13-21.08.26:794][118]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileE6A014C54D8D24BE295A43AD05404360.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTile.uasset'
+[2018.09.13-21.08.26:865][118]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileUp3BF8F53E4CB2817F411678AE2C41DD52.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileUp.uasset'
+[2018.09.13-21.08.28:324][290]LogTemp: Repeating last play command: Simulate
+[2018.09.13-21.08.28:344][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.08.28:345][290]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 1:08:28 PM)
+[2018.09.13-21.08.28:345][290]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.08.28:347][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002399s)
+[2018.09.13-21.08.28:348][290]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.08.28:348][290]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2018.09.13-21.08.28:348][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003550s)
+[2018.09.13-21.08.28:381][290]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.08.28:387][290]LogInit: FAudioDevice initialized.
+[2018.09.13-21.08.28:425][290]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.08.28:430][290]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.08.28
+[2018.09.13-21.08.28:431][290]LogWorld: Bringing up level for play took: 0.003336
+[2018.09.13-21.08.28:476][290]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.529
+[2018.09.13-21.08.29:908][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.08.29:942][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.08.29:973][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.08.30:007][419]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2018.09.13-21.09.07:648][896]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.09.09:226][ 54]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode6A7D6F5D442D1FE91F1D95AB0602FAE4.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2018.09.13-21.09.11:175][221]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunnerB5B57BE44FBE8191BD1052AE5AD3D8DE.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.13-21.09.11:200][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EndlessRunner_BuiltData" FILE="../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset" SILENT=true
+[2018.09.13-21.09.11:219][221]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner_BuiltData1FADEFC44EA46D3FA2A6DFA2509C2FE1.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner_BuiltData.uasset'
+[2018.09.13-21.09.11:972][309]LogTemp: Repeating last play command: Simulate
+[2018.09.13-21.09.11:991][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.09.11:991][309]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 1:09:11 PM)
+[2018.09.13-21.09.11:991][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.09.11:994][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002252s)
+[2018.09.13-21.09.11:995][309]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.09.11:995][309]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2018.09.13-21.09.11:995][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003256s)
+[2018.09.13-21.09.12:023][309]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.09.12:029][309]LogInit: FAudioDevice initialized.
+[2018.09.13-21.09.12:057][309]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.09.12:060][309]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.09.12
+[2018.09.13-21.09.12:060][309]LogWorld: Bringing up level for play took: 0.001217
+[2018.09.13-21.09.12:087][309]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.083
+[2018.09.13-21.09.14:786][597]Cmd: SELECT NONE
+[2018.09.13-21.09.15:957][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.09.15:998][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.09.16:025][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.09.16:070][740]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2018.09.13-21.10.02:012][224]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode6639B1F4491AC9E4BA28FD8434665A59.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2018.09.13-21.10.05:224][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-21.10.07:896][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.07:896][925]PIE: New page: SIE session: EndlessRunner (Sep 13, 2018, 1:10:07 PM)
+[2018.09.13-21.10.07:896][925]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.07:898][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002261s)
+[2018.09.13-21.10.07:899][925]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.07:899][925]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2018.09.13-21.10.07:899][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003384s)
+[2018.09.13-21.10.07:929][925]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.07:936][925]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.07:936][925]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-21.10.07:971][925]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.07:973][925]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.07
+[2018.09.13-21.10.07:974][925]LogWorld: Bringing up level for play took: 0.001455
+[2018.09.13-21.10.08:010][925]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.007
+[2018.09.13-21.10.10:424][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.10:464][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.10:491][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.10:523][138]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2018.09.13-21.10.16:047][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.16:047][797]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:10:16 PM)
+[2018.09.13-21.10.16:047][797]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.16:049][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002317s)
+[2018.09.13-21.10.16:050][797]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.16:050][797]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2018.09.13-21.10.16:050][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003272s)
+[2018.09.13-21.10.16:083][797]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.16:088][797]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.16:122][797]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.16:124][797]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.16
+[2018.09.13-21.10.16:124][797]LogWorld: Bringing up level for play took: 0.000862
+[2018.09.13-21.10.16:155][797]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.849
+[2018.09.13-21.10.17:224][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.17:261][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.17:289][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.17:326][916]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2018.09.13-21.10.27:403][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-21.10.28:058][196]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.10.28:079][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.28:079][196]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:10:28 PM)
+[2018.09.13-21.10.28:079][196]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.28:082][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002343s)
+[2018.09.13-21.10.28:082][196]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.28:083][196]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.09.13-21.10.28:083][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003282s)
+[2018.09.13-21.10.28:113][196]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.28:120][196]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.28:149][196]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.28:151][196]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.28
+[2018.09.13-21.10.28:151][196]LogWorld: Bringing up level for play took: 0.000929
+[2018.09.13-21.10.28:185][196]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.818
+[2018.09.13-21.10.29:020][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.29:074][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.29:123][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.29:142][245]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2018.09.13-21.10.29:850][330]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.10.29:871][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.29:871][330]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:10:29 PM)
+[2018.09.13-21.10.29:871][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.29:874][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002549s)
+[2018.09.13-21.10.29:874][330]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.29:875][330]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2018.09.13-21.10.29:875][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003535s)
+[2018.09.13-21.10.29:905][330]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.29:911][330]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.29:940][330]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.29:942][330]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.29
+[2018.09.13-21.10.29:942][330]LogWorld: Bringing up level for play took: 0.000836
+[2018.09.13-21.10.29:971][330]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.968
+[2018.09.13-21.10.30:501][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.30:550][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.30:598][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.30:615][372]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2018.09.13-21.10.31:182][440]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.10.31:203][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.31:204][440]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:10:31 PM)
+[2018.09.13-21.10.31:204][440]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.31:206][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002248s)
+[2018.09.13-21.10.31:207][440]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.31:207][440]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2018.09.13-21.10.31:207][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003260s)
+[2018.09.13-21.10.31:240][440]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.31:246][440]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.31:275][440]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.31:277][440]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.31
+[2018.09.13-21.10.31:277][440]LogWorld: Bringing up level for play took: 0.000849
+[2018.09.13-21.10.31:310][440]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.306
+[2018.09.13-21.10.31:834][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.31:885][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.31:936][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.31:953][489]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2018.09.13-21.10.32:494][554]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.10.32:514][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.32:515][554]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:10:32 PM)
+[2018.09.13-21.10.32:515][554]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.32:517][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002259s)
+[2018.09.13-21.10.32:518][554]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.32:518][554]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2018.09.13-21.10.32:518][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003212s)
+[2018.09.13-21.10.32:551][554]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.32:556][554]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.32:591][554]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.32:595][554]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.32
+[2018.09.13-21.10.32:595][554]LogWorld: Bringing up level for play took: 0.002360
+[2018.09.13-21.10.32:640][554]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.363
+[2018.09.13-21.10.33:135][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.33:174][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.33:226][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.33:244][611]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2018.09.13-21.10.39:210][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-21.10.40:661][498]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.10.40:681][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.10.40:681][498]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:10:40 PM)
+[2018.09.13-21.10.40:682][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.10.40:684][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002295s)
+[2018.09.13-21.10.40:685][498]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.10.40:685][498]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2018.09.13-21.10.40:685][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003393s)
+[2018.09.13-21.10.40:715][498]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.10.40:721][498]LogInit: FAudioDevice initialized.
+[2018.09.13-21.10.40:755][498]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.10.40:757][498]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.10.40
+[2018.09.13-21.10.40:757][498]LogWorld: Bringing up level for play took: 0.000849
+[2018.09.13-21.10.40:794][498]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.209
+[2018.09.13-21.10.41:982][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.42:026][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.10.42:055][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.10.42:084][594]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2018.09.13-21.11.26:845][960]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.11.28:454][126]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.11.28:474][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.11.28:474][126]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:11:28 PM)
+[2018.09.13-21.11.28:474][126]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.11.28:476][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002325s)
+[2018.09.13-21.11.28:477][126]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.11.28:477][126]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2018.09.13-21.11.28:477][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003209s)
+[2018.09.13-21.11.28:511][126]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.11.28:517][126]LogInit: FAudioDevice initialized.
+[2018.09.13-21.11.28:550][126]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.11.28:554][126]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.11.28
+[2018.09.13-21.11.28:555][126]LogWorld: Bringing up level for play took: 0.002501
+[2018.09.13-21.11.28:591][126]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.412
+[2018.09.13-21.11.29:767][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.11.29:803][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.11.29:850][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.11.29:867][265]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2018.09.13-21.11.30:796][376]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.11.30:816][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.11.30:816][376]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:11:30 PM)
+[2018.09.13-21.11.30:817][376]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.11.30:819][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002212s)
+[2018.09.13-21.11.30:820][376]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.11.30:820][376]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2018.09.13-21.11.30:820][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003229s)
+[2018.09.13-21.11.30:851][376]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.11.30:858][376]LogInit: FAudioDevice initialized.
+[2018.09.13-21.11.30:887][376]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.11.30:889][376]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.11.30
+[2018.09.13-21.11.30:889][376]LogWorld: Bringing up level for play took: 0.001046
+[2018.09.13-21.11.30:925][376]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.078
+[2018.09.13-21.11.31:833][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.11.31:887][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.11.31:935][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.11.31:952][451]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:GetAttachTransform.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:SetSpawnPoints.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:SpawnBlocker.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop:SpawnCoins.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:257][326]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileTop.SKEL_BPFloorTileTop_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTile.PackageMetaData'
+[2018.09.13-21.12.38:350][326]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileTop2DB0614A45C1F734060A4EB19B685085.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileTop.uasset'
+[2018.09.13-21.12.38:364][326]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTile29AE81C8497382A6525109BF2644F63C.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTile.uasset'
+[2018.09.13-21.12.51:638][856]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.SKEL_BPFloorTileBottom_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileUp.PackageMetaData'
+[2018.09.13-21.12.51:638][856]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.BPFloorTileBottom_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileUp.PackageMetaData'
+[2018.09.13-21.12.51:727][856]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileBottom3E21219D45F4E711EB852787601E66B6.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileBottom.uasset'
+[2018.09.13-21.12.51:956][856]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode9F84A7C24F669711BB7B49A2E932DFAB.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2018.09.13-21.13.08:620][832]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.13-21.13.21:434][330]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.13.21:454][330]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a BPFloorTileTop_C, therefore ' Target ' must have a connection.
+[2018.09.13-21.13.21:454][330]LogBlueprint: Error: [Compiler RunGameMode] This blueprint (self) is not a BPFloorTileBottom_C, therefore ' Target ' must have a connection.
+[2018.09.13-21.13.21:638][330]LogBlueprint: Warning: [Compiler RunGameMode] [4078.07] Compile of RunGameMode failed. 2 Fatal Issue(s) 0 Warning(s) [in 203 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
+[2018.09.13-21.14.17:646][944]LogEditorTransaction: Undo Delete current selection
+[2018.09.13-21.14.18:422][ 34]LogEditorTransaction: Undo Create Pin Link
+[2018.09.13-21.14.18:800][ 77]LogEditorTransaction: Undo Create Pin Link
+[2018.09.13-21.14.19:195][122]LogEditorTransaction: Undo Move Node
+[2018.09.13-21.14.19:590][167]LogEditorTransaction: Undo Add Node
+[2018.09.13-21.14.19:967][210]LogEditorTransaction: Undo Delete current selection
+[2018.09.13-21.14.34:405][930]BlueprintLog: New page: Compile RunGameMode
+[2018.09.13-21.14.36:411][142]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.14.36:438][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.14.36:438][142]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:14:36 PM)
+[2018.09.13-21.14.36:438][142]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.14.36:441][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002654s)
+[2018.09.13-21.14.36:441][142]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.14.36:441][142]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2018.09.13-21.14.36:442][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003647s)
+[2018.09.13-21.14.36:476][142]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.14.36:483][142]LogInit: FAudioDevice initialized.
+[2018.09.13-21.14.36:510][142]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.14.36:512][142]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.14.36
+[2018.09.13-21.14.36:513][142]LogWorld: Bringing up level for play took: 0.000849
+[2018.09.13-21.14.36:541][142]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.461
+[2018.09.13-21.14.37:661][223]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BPFloorTileBottom_C /Game/UEDPIE_0_EndlessRunner.EndlessRunner:PersistentLevel.BPFloorTileBottom_C_71
+	Function /Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.BPFloorTileBottom_C:SetSpawnPoints:0000
+[2018.09.13-21.14.37:662][223]PIE: Error: Infinite loop detected. Blueprint:  BPFloorTileBottom Function:  Set Spawn Points Call Stack:  Show
+[2018.09.13-21.14.37:767][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.37:992][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.14.38:034][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.38:068][224]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2018.09.13-21.14.38:975][332]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.14.38:996][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.14.38:996][332]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:14:38 PM)
+[2018.09.13-21.14.38:996][332]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.14.38:998][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002342s)
+[2018.09.13-21.14.38:999][332]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.14.39:000][332]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2018.09.13-21.14.39:000][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003685s)
+[2018.09.13-21.14.39:030][332]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.14.39:036][332]LogInit: FAudioDevice initialized.
+[2018.09.13-21.14.39:069][332]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.14.39:071][332]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.14.39
+[2018.09.13-21.14.39:072][332]LogWorld: Bringing up level for play took: 0.000886
+[2018.09.13-21.14.39:100][332]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.098
+[2018.09.13-21.14.41:854][602]Cmd: RestartLevel
+[2018.09.13-21.14.41:862][603]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.13-21.14.41:870][603]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.13-21.14.41:904][603]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.14.41:907][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002432s)
+[2018.09.13-21.14.41:907][603]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.14.41:908][603]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2018.09.13-21.14.41:908][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003363s)
+[2018.09.13-21.14.41:908][603]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.14.41:909][603]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.14.41
+[2018.09.13-21.14.41:910][603]LogWorld: Bringing up level for play took: 0.000968
+[2018.09.13-21.14.41:927][603]LogLoad: Took 0.057698 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.13-21.14.43:122][675]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BPFloorTileBottom_C /Game/UEDPIE_0_EndlessRunner.EndlessRunner:PersistentLevel.BPFloorTileBottom_C_71
+	Function /Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.BPFloorTileBottom_C:SetSpawnPoints:0000
+[2018.09.13-21.14.43:122][675]PIE: Error: Infinite loop detected. Blueprint:  BPFloorTileBottom Function:  Set Spawn Points Call Stack:  Show
+[2018.09.13-21.14.43:226][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.43:672][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.14.43:704][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.43:763][676]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2018.09.13-21.14.48:535][236]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.14.48:561][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.14.48:561][236]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:14:48 PM)
+[2018.09.13-21.14.48:561][236]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.14.48:564][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002639s)
+[2018.09.13-21.14.48:564][236]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.14.48:565][236]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2018.09.13-21.14.48:565][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003733s)
+[2018.09.13-21.14.48:594][236]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.14.48:600][236]LogInit: FAudioDevice initialized.
+[2018.09.13-21.14.48:633][236]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.14.48:635][236]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.14.48
+[2018.09.13-21.14.48:635][236]LogWorld: Bringing up level for play took: 0.000884
+[2018.09.13-21.14.48:663][236]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.339
+[2018.09.13-21.14.54:548][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.54:596][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.14.54:650][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.54:672][831]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2018.09.13-21.14.55:535][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-21.14.55:627][944]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.14.55:647][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.14.55:647][944]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:14:55 PM)
+[2018.09.13-21.14.55:647][944]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.14.55:649][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002426s)
+[2018.09.13-21.14.55:650][944]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.14.55:650][944]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2018.09.13-21.14.55:650][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003479s)
+[2018.09.13-21.14.55:682][944]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.14.55:688][944]LogInit: FAudioDevice initialized.
+[2018.09.13-21.14.55:720][944]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.14.55:725][944]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.14.55
+[2018.09.13-21.14.55:726][944]LogWorld: Bringing up level for play took: 0.003250
+[2018.09.13-21.14.55:769][944]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.767
+[2018.09.13-21.14.56:656][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.56:702][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.14.56:732][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.14.56:760][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2018.09.13-21.14.57:335][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.14.57:355][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.14.57:356][ 98]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:14:57 PM)
+[2018.09.13-21.14.57:356][ 98]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.14.57:358][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002284s)
+[2018.09.13-21.14.57:359][ 98]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.14.57:359][ 98]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2018.09.13-21.14.57:359][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003431s)
+[2018.09.13-21.14.57:392][ 98]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.14.57:398][ 98]LogInit: FAudioDevice initialized.
+[2018.09.13-21.14.57:435][ 98]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.14.57:439][ 98]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.14.57
+[2018.09.13-21.14.57:440][ 98]LogWorld: Bringing up level for play took: 0.002370
+[2018.09.13-21.14.57:484][ 98]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.482
+[2018.09.13-21.15.02:631][542]LogEditorViewport: Clicking on Actor (LMB): BPFloorTileTop_C (BPFloorTile)
+[2018.09.13-21.15.05:586][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-21.15.26:408][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-21.15.28:840][966]Cmd: RestartLevel
+[2018.09.13-21.15.28:850][967]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.13-21.15.28:859][967]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.13-21.15.28:893][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.15.28:896][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002309s)
+[2018.09.13-21.15.28:896][967]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.15.28:896][967]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.09.13-21.15.28:896][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003311s)
+[2018.09.13-21.15.28:896][967]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.15.28:899][967]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.15.28
+[2018.09.13-21.15.28:899][967]LogWorld: Bringing up level for play took: 0.001440
+[2018.09.13-21.15.28:914][967]LogLoad: Took 0.054485 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.13-21.15.29:119][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.15.29:152][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.15.29:184][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.15.29:218][991]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2018.09.13-21.15.29:693][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.13-21.15.29:717][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-21.15.29:717][ 48]PIE: New page: PIE session: EndlessRunner (Sep 13, 2018, 1:15:29 PM)
+[2018.09.13-21.15.29:718][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.13-21.15.29:720][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002315s)
+[2018.09.13-21.15.29:721][ 48]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.13-21.15.29:721][ 48]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2018.09.13-21.15.29:721][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003354s)
+[2018.09.13-21.15.29:750][ 48]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-21.15.29:756][ 48]LogInit: FAudioDevice initialized.
+[2018.09.13-21.15.29:790][ 48]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.13-21.15.29:792][ 48]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.13-17.15.29
+[2018.09.13-21.15.29:792][ 48]LogWorld: Bringing up level for play took: 0.000908
+[2018.09.13-21.15.29:823][ 48]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.822
+[2018.09.13-21.15.31:868][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.15.31:912][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-21.15.31:969][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-21.15.31:989][223]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2018.09.13-21.15.38:548][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-21.15.39:975][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-21.15.40:118][148]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunner9DD46F484DFA8BEC42E7F6AB61F71E1A.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
+[2018.09.13-21.15.40:144][148]LogFileHelpers: Saving map 'EndlessRunner' took 0.164
+[2018.09.13-21.15.40:177][148]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode240975E64C900EB2DF240892F6D5466A.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
