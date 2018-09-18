@@ -1,4 +1,4 @@
-﻿Log file open, 09/18/18 11:38:37
+﻿Log file open, 09/18/18 16:01:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Shipman_EndlessRunne
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.282155
+LogStats: Stats thread started at 0.288571
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.542s to configure plugins.
+LogStreaming: Display: Took  0.121s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,17 +114,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4233996
-LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4212847
+LogInit: Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 960
-LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -150,893 +150,891 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.18-15.38.38:295][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.18-15.38.38:295][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.18-15.38.38:326][  0]LogHAL: Display: Platform has ~ 24 GB [25715929088 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.18-15.38.38:326][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.18-15.38.38:326][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.18-15.38.38:326][  0]LogInit: Computer: DESKTOP-VBFITEQ
-[2018.09.18-15.38.38:326][  0]LogInit: User: Nate
-[2018.09.18-15.38.38:326][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.18-15.38.38:326][  0]LogInit: High frequency timer resolution =3.906250 MHz
-[2018.09.18-15.38.38:327][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2018.09.18-15.38.38:327][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.18-15.38.38:327][  0]LogMemory: Process Physical Memory: 101.49 MB used, 101.49 MB peak
-[2018.09.18-15.38.38:327][  0]LogMemory: Process Virtual Memory: 89.59 MB used, 89.59 MB peak
-[2018.09.18-15.38.38:327][  0]LogMemory: Physical Memory: 8762.90 MB used,  15761.72 MB free, 24524.62 MB total
-[2018.09.18-15.38.38:327][  0]LogMemory: Virtual Memory: 4638.71 MB used,  15761.72 MB free, 134217728.00 MB total
-[2018.09.18-15.38.38:350][  0]LogInit: Using OS detected language (en-US).
-[2018.09.18-15.38.38:350][  0]LogInit: Using OS detected locale (en-US).
-[2018.09.18-15.38.38:351][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.18-15.38.38:715][  0]LogStreaming: Display: Took  0.366s to InitEngineTextLocalization.
-[2018.09.18-15.38.38:715][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.18-15.38.40:243][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.18-15.38.40:243][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.18-15.38.40:407][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.18-15.38.40:407][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.18-15.38.40:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.09.18-15.38.40:459][  0]LogD3D11RHI:       4053/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.09.18-15.38.40:461][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.18-15.38.40:461][  0]LogD3D11RHI:       0/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.18-15.38.40:461][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.18-15.38.40:468][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.18-15.38.40:468][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.18-15.38.40:468][  0]LogWindows: EnumDisplayDevices:
-[2018.09.18-15.38.40:468][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2018.09.18-15.38.40:468][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.09.18-15.38.40:469][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.09.18-15.38.40:469][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.09.18-15.38.40:469][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.09.18-15.38.40:469][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.09.18-15.38.40:469][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
-[2018.09.18-15.38.40:469][  0]LogD3D11RHI:      Driver Date: 9-5-2018
-[2018.09.18-15.38.40:469][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2018.09.18-15.38.40:501][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.18-15.38.40:533][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.09.18-15.38.40:630][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Intermediate/Shaders/WorkingDirectory/20900/).
-[2018.09.18-15.38.40:630][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nate/AppData/Local/Temp/UnrealShaderWorkingDir/4FFF2FAA4B27DE377FFE908C50B75100/'.
-[2018.09.18-15.38.40:870][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.18-15.38.40:884][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.18-15.38.40:899][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.18-15.38.40:911][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.18-15.38.40:923][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.18-15.38.40:935][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.18-15.38.40:948][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.18-15.38.40:960][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.18-15.38.40:966][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-15.38.41:035][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.18-15.38.41:092][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.18-15.38.41:092][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.18-15.38.41:113][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.18-15.38.41:113][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.18-15.38.41:123][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.18-15.38.41:134][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.18-15.38.41:145][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.18-15.38.41:156][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.18-15.38.41:166][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.18-15.38.41:166][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.18-15.38.41:214][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.18-15.38.41:214][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.18-15.38.41:214][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.18-15.38.41:843][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.18-15.38.41:892][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.18-15.38.41:892][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.18-15.38.41:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.18-15.38.41:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.18-15.38.41:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.18-15.38.41:893][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.18-15.38.41:904][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.18-15.38.41:916][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nate/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.18-15.38.41:916][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.18-15.38.41:916][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.18-15.38.41:933][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.18-15.38.41:934][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.18-15.38.41:935][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.18-15.38.42:000][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2018.09.18-15.38.42:287][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.18-15.38.42:406][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.18-15.38.42:408][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.18-15.38.42:408][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.18-15.38.42:408][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.18-15.38.42:408][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.18-15.38.42:423][  0]LogNetVersion: Shipman_EndlessRunne 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1713276145)
-[2018.09.18-15.38.42:908][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.129869 seconds
-[2018.09.18-15.38.42:914][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.18-15.38.42:915][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.18-15.38.42:915][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.18-15.38.43:648][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.18-15.38.43:661][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.18-15.38.43:799][  0]SourceControl: Source control is disabled
-[2018.09.18-15.38.43:799][  0]SourceControl: Source control is disabled
-[2018.09.18-15.38.43:800][  0]SourceControl: Source control is disabled
-[2018.09.18-15.38.43:801][  0]SourceControl: Source control is disabled
-[2018.09.18-15.38.43:965][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.18-15.38.44:022][  0]LogOcInput: OculusInput pre-init called
-[2018.09.18-15.38.44:079][  0]LogEngine: Initializing Engine...
-[2018.09.18-15.38.44:080][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.18-15.38.44:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.18-15.38.44:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.18-15.38.44:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.18-15.38.44:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.18-15.38.44:263][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.18-15.38.44:275][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.18-15.38.44:291][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-15.38.44:310][  0]LogInit: FAudioDevice initialized.
-[2018.09.18-15.38.44:311][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.18-15.38.44:594][  0]LogDerivedDataCache: Saved boot cache 0.28s 71MB C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.18-15.38.44:601][  0]LogInit: Texture streaming: Enabled
-[2018.09.18-15.38.44:635][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.18-15.38.44:653][  0]LogInit: Transaction tracking system initialized
-[2018.09.18-15.38.44:677][  0]BlueprintLog: New page: Editor Load
-[2018.09.18-15.38.44:743][  0]LocalizationService: Localization service is disabled
-[2018.09.18-15.38.45:030][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.18-15.38.45:030][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.18-15.38.45:030][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.18-15.38.45:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.18-15.38.45:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.18-15.38.45:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.18-15.38.45:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.18-15.38.45:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/' took 0.02s
-[2018.09.18-15.38.45:146][  0]SourceControl: Source control is disabled
-[2018.09.18-15.38.45:146][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.18-15.38.45:150][  0]LightingResults: New page: Lighting Build
-[2018.09.18-15.38.45:152][  0]MapCheck: New page: Map Check
-[2018.09.18-15.38.45:152][  0]LightingResults: New page: Lighting Build
-[2018.09.18-15.38.47:338][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.09.18-15.38.47:367][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.18-15.38.47:408][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.18-15.38.47:463][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.204ms to complete.
-[2018.09.18-15.38.47:463][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.317
-[2018.09.18-15.38.48:303][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-15.38.48:323][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-15.38.48:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-15.38.48:343][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-15.38.48:351][  0]LogCollectionManager: Loaded 0 collections in 0.001424 seconds
-[2018.09.18-15.38.48:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Collections/' took 0.01s
-[2018.09.18-15.38.48:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/Developers/Nate/Collections/' took 0.01s
-[2018.09.18-15.38.48:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/Collections/' took 0.01s
-[2018.09.18-15.38.48:395][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.18-15.38.48:404][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2572 classes and 603 folders.
-[2018.09.18-15.38.48:411][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.18-15.38.50:382][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.18-15.38.50:448][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.18-15.38.50:511][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.18-15.38.50:513][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.18-15.38.50:577][  0]LogSlate: Took 0.059183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.18-15.38.50:710][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.09.18-15.38.50:813][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.09.18-15.38.50:813][  0]LogLoad: (Engine Initialization) Total time: 15.67 seconds
-[2018.09.18-15.38.50:813][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.18-15.38.50:824][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.18-15.38.50:850][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.09.18-15.38.51:162][  0]LogSlate: Took 0.277526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.18-15.38.51:216][  1]LogAssetRegistry: Asset discovery search completed in 9.2377 seconds
-[2018.09.18-15.38.51:218][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.18-15.38.51:218][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2018.09.18-15.38.52:201][  4]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.18-15.38.54:930][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.18-15.38.57:525][283]Cmd: MAP LOAD FILE="../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.18-15.38.57:534][283]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.18-15.38.57:539][283]LightingResults: New page: Lighting Build
-[2018.09.18-15.38.57:540][283]LoadErrors: New page: Loading map: EndlessRunner.umap
-[2018.09.18-15.38.57:541][283]MapCheck: New page: Map Check
-[2018.09.18-15.38.57:542][283]LightingResults: New page: Lighting Build
-[2018.09.18-15.38.58:072][283]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-15.38.58:202][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.18-15.38.58:251][283]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.18-15.38.58:315][283]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.966ms to complete.
-[2018.09.18-15.38.58:315][283]LogFileHelpers: Loading map 'EndlessRunner' took 0.791
-[2018.09.18-15.39.20:422][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.39.27:872][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.39.28:033][688]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.BPFloorTileBottom
-[2018.09.18-15.39.28:674][688]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.09.18-15.39.29:654][688]LogSlate: Took 0.003650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.18-15.39.29:729][689]LogSlate: Took 0.003806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.18-15.39.32:281][859]LogSlate: Window 'BPFloorTileBottom' being destroyed
-[2018.09.18-15.39.32:714][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.39.45:877][814]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.BPFloorTileBottom_Child
-[2018.09.18-15.39.46:251][815]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
-[2018.09.18-15.40.32:267][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.40.38:226][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.40.47:200][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.41.22:057][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.41.40:164][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.18-15.41.45:940][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.18-15.41.48:672][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.41.48:781][436]BlueprintLog: New page: Compile BPFloorTileBottom_Child
-[2018.09.18-15.42.47:955][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.42.48:047][953]BlueprintLog: New page: Compile BPFloorTileBottom_Child
-[2018.09.18-15.43.07:864][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-15.43.07:972][306]BlueprintLog: New page: Compile BPFloorTileBottom_Child
-[2018.09.18-15.43.19:117][560]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode
-[2018.09.18-15.44.37:163][260]LogSlate: Took 0.019203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.09.18-15.44.45:910][ 58]LogSlate: Window 'Change Variable Type' being destroyed
-[2018.09.18-15.44.45:916][ 58]LogClass: Warning: Type mismatch in FloorTiles of SKEL_RunGameMode_C - Previous (ObjectProperty) Current(ArrayProperty) for package:  FObjectReader
-[2018.09.18-15.44.49:455][452]LogSlate: Window 'Find in Blueprints' being destroyed
-[2018.09.18-15.44.49:459][452]LogSlate: Window 'Find in Blueprints' being destroyed
-[2018.09.18-15.45.43:867][733]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.45.43:906][733]LogBlueprint: Warning: [Compiler RunGameMode] Can't parse default value '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.BPFloorTileBottom_C' for  Floor Tiles . Property: FloorTiles.
-[2018.09.18-15.45.44:088][733]LogBlueprint: Warning: [Compiler RunGameMode] [0428.94] Compile of RunGameMode successful, but with 1 Warning(s) [in 220 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
-[2018.09.18-15.45.47:003][ 71]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.18-15.45.59:339][302]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.SKEL_BPFloorTileRampUp_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:654][676]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/BPFloorTileBottom_Child.PackageMetaData'
-[2018.09.18-15.46.24:823][676]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileRampUp4BA49E1E4BE2F3E55240FBAD32B00610.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileRampUp.uasset'
-[2018.09.18-15.46.28:410][891]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.49.11:259][293]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.49.21:370][321]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-15.49.21:394][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-15.49.21:406][321]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 7:49:21 AM)
-[2018.09.18-15.49.21:406][321]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-15.49.21:409][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002957s)
-[2018.09.18-15.49.21:410][321]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-15.49.21:410][321]LogPlayLevel: PIE: World Init took: (0.000814s)
-[2018.09.18-15.49.21:410][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003899s)
-[2018.09.18-15.49.21:447][321]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-15.49.21:460][321]LogInit: FAudioDevice initialized.
-[2018.09.18-15.49.21:504][321]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-15.49.21:506][321]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-11.49.21
-[2018.09.18-15.49.21:506][321]LogWorld: Bringing up level for play took: 0.000719
-[2018.09.18-15.49.21:674][321]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
-[2018.09.18-15.49.21:751][321]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.493
-[2018.09.18-15.49.24:523][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-15.49.24:560][647]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-15.49.24:590][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-15.49.24:629][651]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2018.09.18-15.51.25:172][637]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.53.18:035][837]LogEditorTransaction: Undo Move Node
-[2018.09.18-15.53.29:472][195]LogEditorTransaction: Undo Move Node
-[2018.09.18-15.53.29:753][223]LogEditorTransaction: Undo Move Nodes
-[2018.09.18-15.56.38:311][533]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.56.56:836][643]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop
-[2018.09.18-15.57.08:650][615]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.18-15.57.08:728][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.18-15.57.08:844][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.18-15.57.09:014][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.18-15.57.57:168][649]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/EndlessRunnerD1C41CF844EA47C16D59CF986639AC18.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap'
-[2018.09.18-15.57.57:261][649]LogFileHelpers: Saving map 'EndlessRunner' took 3.422
-[2018.09.18-15.57.57:354][649]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode7192C137471B3AF900AAFF8468D23786.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-15.58.34:830][529]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode
-[2018.09.18-15.58.36:664][672]LogSlate: Window 'RunGameMode' being destroyed
-[2018.09.18-15.58.43:289][444]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.58.43:332][444]LogBlueprint: Error: [Compiler RunGameMode] Spawn node  SpawnActor NONE  must have a  Class  specified.
-[2018.09.18-15.58.43:338][444]LogBlueprint: Error: [Compiler RunGameMode] Could not find a function named "GetAttachTransform" in 'RunGameMode'.
-Make sure 'RunGameMode' has been compiled for  Get Attach Transform
-[2018.09.18-15.58.43:473][444]LogBlueprint: Warning: [Compiler RunGameMode] [1208.33] Compile of RunGameMode failed. 2 Fatal Issue(s) 0 Warning(s) [in 183 ms] (/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode)
-[2018.09.18-15.59.20:843][836]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-15.59.29:271][819]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode47EEFA8A412CAD61AE9E00BD21EEE323.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-16.01.17:554][649]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileRampDown.BPFloorTileRampDown
-[2018.09.18-16.01.23:135][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.01.28:306][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.01.31:262][207]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.18-16.01.51:177][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.01.51:269][530]BlueprintLog: New page: Compile BPFloorTileRampDown
-[2018.09.18-16.02.01:754][723]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.18-16.02.09:586][591]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-16.02.11:013][732]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode5F5CE53E4D2F00EA08EBE19350CB9118.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-16.02.11:983][840]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileRampDownAD7A6A8F4AEF9FDD661BA08AE99619CE.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileRampDown.uasset'
-[2018.09.18-16.02.14:738][170]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.02.14:762][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.02.14:763][170]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:02:14 AM)
-[2018.09.18-16.02.14:763][170]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.02.14:764][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001656s)
-[2018.09.18-16.02.14:765][170]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.02.14:765][170]LogPlayLevel: PIE: World Init took: (0.000674s)
-[2018.09.18-16.02.14:765][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002432s)
-[2018.09.18-16.02.14:799][170]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.02.14:814][170]LogInit: FAudioDevice initialized.
-[2018.09.18-16.02.14:846][170]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.02.14:848][170]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.02.14
-[2018.09.18-16.02.14:848][170]LogWorld: Bringing up level for play took: 0.000558
-[2018.09.18-16.02.14:861][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:861][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'FloorTilesTop' of length 0 in '/Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode_C'!
-[2018.09.18-16.02.14:862][170]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2018.09.18-16.02.14:862][170]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.618
-[2018.09.18-16.02.16:088][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.02.16:120][315]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.02.16:146][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.02.16:192][320]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2018.09.18-16.02.57:429][ 53]LogEditorTransaction: Undo Move Node
-[2018.09.18-16.03.01:459][528]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-16.03.03:197][715]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.03.03:216][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.03.03:216][715]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:03:03 AM)
-[2018.09.18-16.03.03:216][715]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.03.03:217][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001465s)
-[2018.09.18-16.03.03:218][715]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.03.03:218][715]LogPlayLevel: PIE: World Init took: (0.000902s)
-[2018.09.18-16.03.03:218][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002452s)
-[2018.09.18-16.03.03:250][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.03.03:264][715]LogInit: FAudioDevice initialized.
-[2018.09.18-16.03.03:295][715]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.03.03:297][715]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.03.03
-[2018.09.18-16.03.03:297][715]LogWorld: Bringing up level for play took: 0.000493
-[2018.09.18-16.03.03:353][715]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 1.11
-[2018.09.18-16.03.05:157][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.03.05:195][928]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.03.05:234][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.03.05:257][930]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2018.09.18-16.03.09:275][398]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode8F768AC14C3EE2ADBC44889845BC26D4.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-16.04.40:507][214]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileTop.BPFloorTileTop
-[2018.09.18-16.05.28:531][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.05.53:638][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.05.53:704][580]BlueprintLog: New page: Compile BPFloorTileTop
-[2018.09.18-16.05.57:986][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.06.04:385][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.06.04:477][775]BlueprintLog: New page: Compile BPFloorTileTop
-[2018.09.18-16.06.14:653][963]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.18-16.06.23:520][998]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-16.06.25:307][190]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.06.25:330][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.06.25:331][190]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:06:25 AM)
-[2018.09.18-16.06.25:331][190]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.06.25:332][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001454s)
-[2018.09.18-16.06.25:333][190]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.06.25:333][190]LogPlayLevel: PIE: World Init took: (0.001081s)
-[2018.09.18-16.06.25:333][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002660s)
-[2018.09.18-16.06.25:368][190]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.06.25:382][190]LogInit: FAudioDevice initialized.
-[2018.09.18-16.06.25:416][190]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.06.25:418][190]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.06.25
-[2018.09.18-16.06.25:419][190]LogWorld: Bringing up level for play took: 0.000995
-[2018.09.18-16.06.25:476][190]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.768
-[2018.09.18-16.06.29:054][614]Cmd: RestartLevel
-[2018.09.18-16.06.29:062][615]LogNet: Browse: /Game/EndlessRunner?restart
-[2018.09.18-16.06.29:062][615]LogLoad: LoadMap: /Game/EndlessRunner
-[2018.09.18-16.06.29:093][615]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.06.29:094][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001400s)
-[2018.09.18-16.06.29:095][615]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.06.29:096][615]LogPlayLevel: PIE: World Init took: (0.001211s)
-[2018.09.18-16.06.29:096][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002883s)
-[2018.09.18-16.06.29:096][615]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.06.29:097][615]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.06.29
-[2018.09.18-16.06.29:097][615]LogWorld: Bringing up level for play took: 0.000515
-[2018.09.18-16.06.29:112][615]LogLoad: Took 0.049874 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
-[2018.09.18-16.06.30:160][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.06.30:197][738]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.06.30:224][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.06.30:263][742]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2018.09.18-16.06.41:378][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.06.41:469][ 82]BlueprintLog: New page: Compile BPFloorTileTop
-[2018.09.18-16.06.44:343][406]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.06.44:365][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.06.44:365][406]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:06:44 AM)
-[2018.09.18-16.06.44:366][406]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.06.44:368][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002006s)
-[2018.09.18-16.06.44:368][406]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.06.44:368][406]LogPlayLevel: PIE: World Init took: (0.000658s)
-[2018.09.18-16.06.44:368][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002757s)
-[2018.09.18-16.06.44:399][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.06.44:413][406]LogInit: FAudioDevice initialized.
-[2018.09.18-16.06.44:441][406]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.06.44:442][406]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.06.44
-[2018.09.18-16.06.44:442][406]LogWorld: Bringing up level for play took: 0.000374
-[2018.09.18-16.06.44:489][406]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.246
-[2018.09.18-16.06.49:521][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.06.49:556][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.06.49:586][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.06.49:625][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2018.09.18-16.07.07:555][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.07.07:796][873]BlueprintLog: New page: Compile BPFloorTileTop
-[2018.09.18-16.07.08:198][891]BlueprintLog: New page: Compile BPFloorTileTop
-[2018.09.18-16.07.24:455][821]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.07.24:477][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.07.24:478][821]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:07:24 AM)
-[2018.09.18-16.07.24:478][821]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.07.24:480][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001811s)
-[2018.09.18-16.07.24:480][821]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.07.24:481][821]LogPlayLevel: PIE: World Init took: (0.000996s)
-[2018.09.18-16.07.24:481][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002947s)
-[2018.09.18-16.07.24:515][821]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.07.24:529][821]LogInit: FAudioDevice initialized.
-[2018.09.18-16.07.24:557][821]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.07.24:559][821]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.07.24
-[2018.09.18-16.07.24:559][821]LogWorld: Bringing up level for play took: 0.000401
-[2018.09.18-16.07.24:605][821]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.361
-[2018.09.18-16.07.25:460][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.07.25:494][921]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.07.25:522][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.07.25:561][925]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2018.09.18-16.07.26:655][ 56]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.07.26:677][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.07.26:677][ 56]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:07:26 AM)
-[2018.09.18-16.07.26:677][ 56]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.07.26:679][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001667s)
-[2018.09.18-16.07.26:680][ 56]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.07.26:680][ 56]LogPlayLevel: PIE: World Init took: (0.000739s)
-[2018.09.18-16.07.26:680][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002553s)
-[2018.09.18-16.07.26:713][ 56]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.07.26:726][ 56]LogInit: FAudioDevice initialized.
-[2018.09.18-16.07.26:758][ 56]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.07.26:759][ 56]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.07.26
-[2018.09.18-16.07.26:759][ 56]LogWorld: Bringing up level for play took: 0.000394
-[2018.09.18-16.07.26:803][ 56]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.559
-[2018.09.18-16.07.34:226][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.07.34:327][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.07.34:364][905]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.07.34:393][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.07.34:434][909]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2018.09.18-16.07.46:082][301]BlueprintLog: New page: Compile BPFloorTileTop
-[2018.09.18-16.07.47:748][481]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.07.47:772][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.07.47:772][481]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:07:47 AM)
-[2018.09.18-16.07.47:772][481]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.07.47:773][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001630s)
-[2018.09.18-16.07.47:774][481]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.07.47:774][481]LogPlayLevel: PIE: World Init took: (0.000734s)
-[2018.09.18-16.07.47:774][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002468s)
-[2018.09.18-16.07.47:809][481]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.07.47:822][481]LogInit: FAudioDevice initialized.
-[2018.09.18-16.07.47:860][481]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.07.47:863][481]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.07.47
-[2018.09.18-16.07.47:864][481]LogWorld: Bringing up level for play took: 0.001291
-[2018.09.18-16.07.47:924][481]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.32
-[2018.09.18-16.08.01:133][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.08.01:174][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.08.01:203][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.08.01:235][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2018.09.18-16.08.06:476][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.08.07:342][736]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileTop6756CFAB4B91329EF05352936536D0EA.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileTop.uasset'
-[2018.09.18-16.08.08:553][875]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode7307B52F46AD9EBBC04105BFA3CD71AB.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-16.08.29:312][573]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-16.08.29:544][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner' took 0.027
-[2018.09.18-16.08.29:546][574]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunGameMode] ([1] browsable assets)...
-[2018.09.18-16.08.29:546][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunGameMode]
-[2018.09.18-16.08.29:580][574]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode_Auto1F6C201504F379B662CBDF1AA173BC269.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunGameMode_Auto1.uasset'
-[2018.09.18-16.08.29:581][574]LogFileHelpers: Auto-saving content packages took 0.036
-[2018.09.18-16.08.31:585][808]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode532A2ECD4BB561B32EF21C93B6456B11.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-16.08.33:383][ 23]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.08.33:404][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.08.33:404][ 23]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:08:33 AM)
-[2018.09.18-16.08.33:404][ 23]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.08.33:406][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
-[2018.09.18-16.08.33:406][ 23]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.08.33:407][ 23]LogPlayLevel: PIE: World Init took: (0.000940s)
-[2018.09.18-16.08.33:407][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002749s)
-[2018.09.18-16.08.33:438][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.08.33:451][ 23]LogInit: FAudioDevice initialized.
-[2018.09.18-16.08.33:487][ 23]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.08.33:490][ 23]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.08.33
-[2018.09.18-16.08.33:491][ 23]LogWorld: Bringing up level for play took: 0.001234
-[2018.09.18-16.08.33:576][ 23]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.667
-[2018.09.18-16.08.37:755][495]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
-[2018.09.18-16.08.39:481][696]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
-[2018.09.18-16.08.41:753][968]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
-[2018.09.18-16.08.42:329][ 37]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
-[2018.09.18-16.09.01:783][ 84]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
-[2018.09.18-16.09.02:606][159]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
-[2018.09.18-16.09.11:821][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.09.11:875][984]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.09.11:923][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.09.11:943][985]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2018.09.18-16.09.13:038][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.09.13:397][159]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.09.13:420][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.09.13:420][159]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:09:13 AM)
-[2018.09.18-16.09.13:420][159]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.09.13:422][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001699s)
-[2018.09.18-16.09.13:422][159]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.09.13:423][159]LogPlayLevel: PIE: World Init took: (0.000945s)
-[2018.09.18-16.09.13:423][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002761s)
-[2018.09.18-16.09.13:453][159]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.09.13:466][159]LogInit: FAudioDevice initialized.
-[2018.09.18-16.09.13:503][159]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.09.13:506][159]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.09.13
-[2018.09.18-16.09.13:506][159]LogWorld: Bringing up level for play took: 0.001259
-[2018.09.18-16.09.13:579][159]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.665
-[2018.09.18-16.09.20:078][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.18-16.09.27:728][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.09.27:813][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.09.27:846][824]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.09.27:875][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.09.27:915][828]LogPlayLevel: Display: Destroying online subsystem :Context_27
-[2018.09.18-16.10.58:499][418]BlueprintLog: New page: Compile RunGameMode
-[2018.09.18-16.10.59:886][557]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode70B119AB4F97A6895E1E4BB7911F3F7B.tmp' to '../../../../../../Users/Nate/Documents/GitHub/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
-[2018.09.18-16.11.03:312][964]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.18-16.11.03:334][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.18-16.11.03:334][964]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 8:11:03 AM)
-[2018.09.18-16.11.03:334][964]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.11.03:336][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001914s)
-[2018.09.18-16.11.03:337][964]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.11.03:337][964]LogPlayLevel: PIE: World Init took: (0.001229s)
-[2018.09.18-16.11.03:337][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003275s)
-[2018.09.18-16.11.03:371][964]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.18-16.11.03:385][964]LogInit: FAudioDevice initialized.
-[2018.09.18-16.11.03:416][964]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.11.03:418][964]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.11.03
-[2018.09.18-16.11.03:418][964]LogWorld: Bringing up level for play took: 0.000541
-[2018.09.18-16.11.03:445][964]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.798
-[2018.09.18-16.11.07:122][401]Cmd: RestartLevel
-[2018.09.18-16.11.07:130][402]LogNet: Browse: /Game/EndlessRunner?restart
-[2018.09.18-16.11.07:132][402]LogLoad: LoadMap: /Game/EndlessRunner
-[2018.09.18-16.11.07:163][402]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.11.07:164][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001649s)
-[2018.09.18-16.11.07:165][402]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.11.07:165][402]LogPlayLevel: PIE: World Init took: (0.000620s)
-[2018.09.18-16.11.07:165][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002467s)
-[2018.09.18-16.11.07:165][402]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.11.07:166][402]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.11.07
-[2018.09.18-16.11.07:166][402]LogWorld: Bringing up level for play took: 0.000450
-[2018.09.18-16.11.07:180][402]LogLoad: Took 0.048381 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
-[2018.09.18-16.11.14:751][279]Cmd: RestartLevel
-[2018.09.18-16.11.14:759][280]LogNet: Browse: /Game/EndlessRunner?restart
-[2018.09.18-16.11.14:759][280]LogLoad: LoadMap: /Game/EndlessRunner
-[2018.09.18-16.11.14:792][280]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
-[2018.09.18-16.11.14:794][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001412s)
-[2018.09.18-16.11.14:794][280]LogAIModule: Creating AISystem for world EndlessRunner
-[2018.09.18-16.11.14:794][280]LogPlayLevel: PIE: World Init took: (0.000655s)
-[2018.09.18-16.11.14:794][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002188s)
-[2018.09.18-16.11.14:794][280]LogLoad: Game class is 'RunGameMode_C'
-[2018.09.18-16.11.14:795][280]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-12.11.14
-[2018.09.18-16.11.14:796][280]LogWorld: Bringing up level for play took: 0.000444
-[2018.09.18-16.11.14:810][280]LogLoad: Took 0.050945 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
-[2018.09.18-16.11.17:142][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.18-16.11.17:235][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.11.17:270][548]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.18-16.11.17:299][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.11.17:337][552]LogPlayLevel: Display: Destroying online subsystem :Context_28
-[2018.09.18-16.11.40:759][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.18-16.11.40:843][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.18-16.11.40:901][916]LogSlate: Window 'Shipman_EndlessRunne - Unreal Editor' being destroyed
-[2018.09.18-16.11.41:134][917]Cmd: QUIT_EDITOR
-[2018.09.18-16.11.42:082][917]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.18-16.11.42:130][917]LogExit: Preparing to exit.
-[2018.09.18-16.11.42:902][917]LogExit: Editor shut down
-[2018.09.18-16.11.42:902][917]LogExit: Transaction tracking system shut down
-[2018.09.18-16.11.43:646][917]LogExit: Object subsystem successfully closed.
-[2018.09.18-16.11.43:673][917]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.09.18-16.11.43:676][917]LogD3D11RHI: Shutdown
-[2018.09.18-16.11.43:676][917]LogD3D11RHI: CleanupD3DDevice
-[2018.09.18-16.11.43:678][917]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module Voice (616)
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (614)
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2018.09.18-16.11.43:700][917]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2018.09.18-16.11.43:701][917]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2018.09.18-16.11.43:701][917]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2018.09.18-16.11.43:701][917]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.09.18-16.11.43:702][917]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.09.18-16.11.43:703][917]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.09.18-16.11.43:948][917]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.09.18-16.11.43:949][917]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.09.18-16.11.43:949][917]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.09.18-16.11.43:949][917]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.09.18-16.11.43:949][917]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.09.18-16.11.43:950][917]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.09.18-16.11.43:951][917]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.09.18-16.11.44:006][917]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.09.18-16.11.44:010][917]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.09.18-16.11.44:010][917]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.09.18-16.11.44:012][917]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.09.18-16.11.44:194][917]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.09.18-16.11.44:194][917]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.09.18-16.11.44:195][917]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.09.18-16.11.44:196][917]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.09.18-16.11.44:196][917]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.09.18-16.11.44:207][917]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.09.18-16.11.44:209][917]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.09.18-16.11.44:210][917]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.09.18-16.11.44:211][917]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.09.18-16.11.44:313][917]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.09.18-16.11.44:414][917]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.09.18-16.11.44:416][917]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.09.18-16.11.44:416][917]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.09.18-16.11.44:416][917]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.09.18-16.11.44:417][917]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.09.18-16.11.44:417][917]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.09.18-16.11.44:420][917]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.09.18-16.11.44:420][917]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.09.18-16.11.44:420][917]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.09.18-16.11.44:420][917]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.09.18-16.11.44:420][917]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.09.18-16.11.44:420][917]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.09.18-16.11.44:421][917]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.09.18-16.11.44:427][917]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.09.18-16.11.44:429][917]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.09.18-16.11.44:484][917]LogDerivedDataCache: Shutdown
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.09.18-16.11.44:484][917]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.09.18-16.11.44:485][917]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.09.18-16.11.44:486][917]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.09.18-16.11.44:486][917]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.09.18-16.11.44:492][917]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.09.18-16.11.44:493][917]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.09.18-16.11.44:493][917]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.09.18-16.11.44:493][917]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.09.18-16.11.44:493][917]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.09.18-16.11.44:493][917]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.09.18-16.11.44:494][917]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.09.18-16.11.44:494][917]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.09.18-16.11.44:526][917]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.09.18-16.11.44:526][917]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.09.18-16.11.44:526][917]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B701305-4EF7-6473-D5FF-A5819478D43C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=bf41fa754fda67dc35b905b1d2e69d8c%7C8d03bbcd158d461aba4cdd046a4c8aef%7Cd639e9bb-913e-4d2c-8db0-96243143a061&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.09.18-16.11.44:555][917]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.09.18-16.11.44:558][917]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.09.18-16.11.44:559][917]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.09.18-16.11.44:559][917]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.09.18-16.11.44:559][917]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.09.18-16.11.44:559][917]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.09.18-16.11.44:560][917]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.09.18-16.11.44:560][917]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.09.18-16.11.44:560][917]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.09.18-16.11.44:560][917]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.09.18-16.11.44:561][917]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.09.18-16.11.44:561][917]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.09.18-16.11.44:561][917]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.09.18-16.11.44:563][917]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.09.18-16.11.44:563][917]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.09.18-16.11.44:563][917]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.09.18-16.11.44:563][917]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.09.18-16.11.44:563][917]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.09.18-16.11.44:563][917]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.09.18-16.11.44:564][917]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.09.18-16.11.44:564][917]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.09.18-16.11.44:564][917]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.09.18-16.11.44:564][917]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.09.18-16.11.44:564][917]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.09.18-16.11.44:585][917]LogExit: Exiting.
-[2018.09.18-16.11.44:632][917]Log file closed, 09/18/18 12:11:44
+[2018.09.18-20.01.57:689][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-20.01.57:689][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.18-20.01.57:703][  0]LogHAL: Display: Platform has ~ 32 GB [34308362240 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.18-20.01.57:703][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.18-20.01.57:703][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.18-20.01.57:703][  0]LogInit: Computer: IULB-V-FF052-19
+[2018.09.18-20.01.57:704][  0]LogInit: User: nsshipma
+[2018.09.18-20.01.57:704][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.18-20.01.57:704][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2018.09.18-20.01.57:704][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.09.18-20.01.57:704][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.18-20.01.57:704][  0]LogMemory: Process Physical Memory: 101.29 MB used, 101.29 MB peak
+[2018.09.18-20.01.57:704][  0]LogMemory: Process Virtual Memory: 92.75 MB used, 92.75 MB peak
+[2018.09.18-20.01.57:704][  0]LogMemory: Physical Memory: 5647.84 MB used,  27071.16 MB free, 32719.00 MB total
+[2018.09.18-20.01.57:704][  0]LogMemory: Virtual Memory: 550.48 MB used,  27071.16 MB free, 134217728.00 MB total
+[2018.09.18-20.01.57:718][  0]LogInit: Using OS detected language (en-US).
+[2018.09.18-20.01.57:718][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.18-20.01.57:719][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.18-20.01.58:037][  0]LogStreaming: Display: Took  0.319s to InitEngineTextLocalization.
+[2018.09.18-20.01.58:037][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.18-20.01.58:069][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.18-20.01.58:069][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.18-20.01.58:228][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-20.01.58:228][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.18-20.01.58:263][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.09.18-20.01.58:263][  0]LogD3D11RHI:       8144/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.18-20.01.58:265][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.18-20.01.58:265][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.18-20.01.58:265][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.18-20.01.58:272][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.18-20.01.58:272][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.18-20.01.58:272][  0]LogWindows: EnumDisplayDevices:
+[2018.09.18-20.01.58:272][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.09.18-20.01.58:272][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.18-20.01.58:272][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.18-20.01.58:272][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.18-20.01.58:272][  0]LogWindows:    4. 'Freedom Scientific Accessibility Display Driver' (P:0 D:0)
+[2018.09.18-20.01.58:272][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.18-20.01.58:272][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.09.18-20.01.58:272][  0]LogD3D11RHI:   Driver Version: 369.26 (internal:21.21.13.6926, unified:369.26)
+[2018.09.18-20.01.58:272][  0]LogD3D11RHI:      Driver Date: 8-30-2016
+[2018.09.18-20.01.58:272][  0]LogRHI: Texture pool is 5701 MB (70% of 8144 MB)
+[2018.09.18-20.01.58:288][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.18-20.01.58:299][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.18-20.01.58:342][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Intermediate/Shaders/WorkingDirectory/2624/).
+[2018.09.18-20.01.58:342][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nsshipma/AppData/Local/Temp/UnrealShaderWorkingDir/FB9941AD4DCA75821CFA90BCF7D87E35/'.
+[2018.09.18-20.01.58:580][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.18-20.01.58:592][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.18-20.01.58:604][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.18-20.01.58:614][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.18-20.01.58:626][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.18-20.01.58:638][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.18-20.01.58:649][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.18-20.01.58:664][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.18-20.01.58:669][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.18-20.01.58:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-20.01.58:739][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.18-20.01.58:798][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-20.01.58:798][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-20.01.58:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-20.01.58:820][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-20.01.58:831][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.18-20.01.58:842][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.18-20.01.58:854][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.18-20.01.58:865][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.18-20.01.58:873][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.18-20.01.58:873][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.18-20.01.58:918][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.18-20.01.58:918][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.18-20.01.58:918][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.18-20.01.59:576][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.18-20.01.59:624][  0]LogDerivedDataCache: Loaded boot cache 0.05s 87MB C:/Users/nsshipma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-20.01.59:624][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nsshipma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.18-20.01.59:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.18-20.01.59:624][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.18-20.01.59:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.18-20.01.59:624][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.18-20.01.59:636][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.18-20.01.59:648][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nsshipma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.18-20.01.59:648][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.18-20.01.59:648][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.18-20.01.59:664][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.18-20.01.59:666][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.18-20.01.59:666][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.18-20.01.59:732][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.09.18-20.02.00:049][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-20.02.00:180][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.18-20.02.00:183][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.18-20.02.00:184][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.18-20.02.00:184][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.18-20.02.00:184][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.18-20.02.00:200][  0]LogNetVersion: Shipman_EndlessRunne 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1713276145)
+[2018.09.18-20.02.00:687][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.105371 seconds
+[2018.09.18-20.02.00:693][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.18-20.02.00:693][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.18-20.02.00:693][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.18-20.02.01:415][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.18-20.02.01:429][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.18-20.02.01:579][  0]SourceControl: Source control is disabled
+[2018.09.18-20.02.01:579][  0]SourceControl: Source control is disabled
+[2018.09.18-20.02.01:581][  0]SourceControl: Source control is disabled
+[2018.09.18-20.02.01:582][  0]SourceControl: Source control is disabled
+[2018.09.18-20.02.01:730][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.18-20.02.01:783][  0]LogOcInput: OculusInput pre-init called
+[2018.09.18-20.02.01:835][  0]LogEngine: Initializing Engine...
+[2018.09.18-20.02.01:836][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-20.02.01:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-20.02.01:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-20.02.01:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-20.02.01:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-20.02.02:015][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.18-20.02.02:030][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.18-20.02.02:038][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.02.02:055][  0]LogInit: FAudioDevice initialized.
+[2018.09.18-20.02.02:055][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.18-20.02.02:135][  0]LogDerivedDataCache: Saved boot cache 0.08s 87MB C:/Users/nsshipma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-20.02.02:140][  0]LogInit: Texture streaming: Enabled
+[2018.09.18-20.02.02:152][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.18-20.02.02:165][  0]LogInit: Transaction tracking system initialized
+[2018.09.18-20.02.02:180][  0]BlueprintLog: New page: Editor Load
+[2018.09.18-20.02.02:237][  0]LocalizationService: Localization service is disabled
+[2018.09.18-20.02.02:455][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.18-20.02.02:455][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.18-20.02.02:455][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.18-20.02.02:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-20.02.02:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-20.02.02:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-20.02.02:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-20.02.02:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/' took 0.01s
+[2018.09.18-20.02.02:545][  0]SourceControl: Source control is disabled
+[2018.09.18-20.02.02:545][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-20.02.02:545][  0]LightingResults: New page: Lighting Build
+[2018.09.18-20.02.02:547][  0]MapCheck: New page: Map Check
+[2018.09.18-20.02.02:547][  0]LightingResults: New page: Lighting Build
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.09.18-20.02.02:790][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.09.18-20.02.03:185][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.18-20.02.03:193][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-20.02.03:214][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-20.02.03:266][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.89ms to complete.
+[2018.09.18-20.02.03:266][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.721
+[2018.09.18-20.02.03:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.02.03:398][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.02.03:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.02.03:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.02.03:427][  0]LogCollectionManager: Loaded 0 collections in 0.001299 seconds
+[2018.09.18-20.02.03:469][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Collections/' took 0.01s
+[2018.09.18-20.02.03:469][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/Developers/nsshipma/Collections/' took 0.01s
+[2018.09.18-20.02.03:469][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/Collections/' took 0.01s
+[2018.09.18-20.02.03:469][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.18-20.02.03:478][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2572 classes and 603 folders.
+[2018.09.18-20.02.03:485][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-20.02.03:862][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.18-20.02.03:881][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.18-20.02.03:896][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.18-20.02.03:898][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.18-20.02.03:908][  0]LogSlate: Took 0.005969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.18-20.02.04:008][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2018.09.18-20.02.04:141][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-20.02.04:156][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.09.18-20.02.04:185][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-20.02.04:185][  0]LogLoad: (Engine Initialization) Total time: 7.86 seconds
+[2018.09.18-20.02.04:185][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.18-20.02.04:197][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.18-20.02.04:224][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.18-20.02.04:288][  1]LogAssetRegistry: Asset discovery search completed in 4.5777 seconds
+[2018.09.18-20.02.04:290][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.18-20.02.04:290][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2018.09.18-20.02.05:221][ 89]LogSlate: Took 0.009658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.18-20.02.07:573][367]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-20.02.09:881][637]Cmd: MAP LOAD FILE="../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/EndlessRunner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-20.02.09:889][637]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-20.02.09:895][637]LightingResults: New page: Lighting Build
+[2018.09.18-20.02.09:895][637]LoadErrors: New page: Loading map: EndlessRunner.umap
+[2018.09.18-20.02.09:897][637]MapCheck: New page: Map Check
+[2018.09.18-20.02.09:897][637]LightingResults: New page: Lighting Build
+[2018.09.18-20.02.10:153][637]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.02.10:159][637]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-20.02.10:211][637]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-20.02.10:271][637]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.759ms to complete.
+[2018.09.18-20.02.10:271][637]LogFileHelpers: Loading map 'EndlessRunner' took 0.391
+[2018.09.18-20.02.18:233][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.29.28:429][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.29.28:512][181]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.29.28:527][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.29.28:540][181]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:29:28 PM)
+[2018.09.18-20.29.28:540][181]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.29.28:544][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003307s)
+[2018.09.18-20.29.28:545][181]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.29.28:545][181]LogPlayLevel: PIE: World Init took: (0.001391s)
+[2018.09.18-20.29.28:545][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.004999s)
+[2018.09.18-20.29.28:570][181]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.29.28:579][181]LogInit: FAudioDevice initialized.
+[2018.09.18-20.29.28:621][181]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.29.28:623][181]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.29.28
+[2018.09.18-20.29.28:623][181]LogWorld: Bringing up level for play took: 0.000555
+[2018.09.18-20.29.28:642][181]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.09.18-20.29.28:663][181]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.457
+[2018.09.18-20.29.38:098][273]Cmd: RestartLevel
+[2018.09.18-20.29.38:108][274]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.29.38:116][274]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.29.38:145][274]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.29.38:147][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001647s)
+[2018.09.18-20.29.38:148][274]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.29.38:148][274]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2018.09.18-20.29.38:148][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002765s)
+[2018.09.18-20.29.38:148][274]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.29.38:150][274]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.29.38
+[2018.09.18-20.29.38:150][274]LogWorld: Bringing up level for play took: 0.000873
+[2018.09.18-20.29.38:167][274]LogLoad: Took 0.050799 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.29.57:560][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.29.57:600][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.29.57:637][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.29.57:659][591]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.18-20.30.00:056][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.30.00:155][890]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.30.00:170][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.30.00:171][890]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:30:00 PM)
+[2018.09.18-20.30.00:171][890]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.30.00:173][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001971s)
+[2018.09.18-20.30.00:173][890]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.30.00:173][890]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.09.18-20.30.00:174][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002867s)
+[2018.09.18-20.30.00:199][890]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.30.00:205][890]LogInit: FAudioDevice initialized.
+[2018.09.18-20.30.00:235][890]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.30.00:236][890]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.30.00
+[2018.09.18-20.30.00:236][890]LogWorld: Bringing up level for play took: 0.000517
+[2018.09.18-20.30.00:264][890]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.058
+[2018.09.18-20.30.04:968][449]Cmd: RestartLevel
+[2018.09.18-20.30.04:975][450]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.30.04:984][450]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.30.05:011][450]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.30.05:012][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001509s)
+[2018.09.18-20.30.05:014][450]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.30.05:014][450]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2018.09.18-20.30.05:014][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003126s)
+[2018.09.18-20.30.05:014][450]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.30.05:016][450]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.30.05
+[2018.09.18-20.30.05:016][450]LogWorld: Bringing up level for play took: 0.000594
+[2018.09.18-20.30.05:035][450]LogLoad: Took 0.051138 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.30.16:920][844]Cmd: RestartLevel
+[2018.09.18-20.30.16:929][845]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.30.16:940][845]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.30.16:971][845]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.30.16:973][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001692s)
+[2018.09.18-20.30.16:974][845]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.30.16:975][845]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2018.09.18-20.30.16:975][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003361s)
+[2018.09.18-20.30.16:975][845]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.30.16:976][845]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.30.16
+[2018.09.18-20.30.16:976][845]LogWorld: Bringing up level for play took: 0.000698
+[2018.09.18-20.30.16:994][845]LogLoad: Took 0.053995 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.30.25:644][819]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.29:779][280]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.30:988][397]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.32:154][496]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.32:889][559]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.33:424][610]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.33:782][653]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.34:199][703]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.34:625][741]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.38:139][ 70]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.38:841][151]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.47:472][ 25]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.50:968][364]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.51:521][413]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.53:631][637]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.54:260][712]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.54:393][728]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.54:993][800]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.55:496][860]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.56:156][939]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.30.56:856][ 23]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.30.59:251][290]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.01:454][528]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.02:591][630]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.16:430][957]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.17:137][ 16]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.21:405][382]Cmd: RestartLevel
+[2018.09.18-20.31.21:415][383]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.31.21:427][383]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.31.21:472][383]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.31.21:474][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001662s)
+[2018.09.18-20.31.21:476][383]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.31.21:476][383]LogPlayLevel: PIE: World Init took: (0.002476s)
+[2018.09.18-20.31.21:476][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.004338s)
+[2018.09.18-20.31.21:476][383]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.31.21:477][383]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.31.21
+[2018.09.18-20.31.21:478][383]LogWorld: Bringing up level for play took: 0.000382
+[2018.09.18-20.31.21:493][383]LogLoad: Took 0.066457 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.31.31:152][535]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.42:169][825]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.44:592][106]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.45:487][199]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.46:554][319]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.47:888][460]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.49:430][635]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.52:314][946]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.54:702][232]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.55:372][309]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.56:393][427]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.57:031][503]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.31.58:665][699]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.31.59:648][817]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.32.00:840][960]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.32.02:724][186]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.32.03:608][292]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.32.13:078][408]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.32.14:324][550]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.32.15:033][635]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.32.16:075][760]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.32.17:326][910]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.32.18:184][ 13]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.32.18:884][ 97]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.32.19:651][189]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.32.21:606][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.32.21:652][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.32.21:700][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.32.21:724][424]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.09.18-20.38.10:494][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.38.10:663][288]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode
+[2018.09.18-20.38.11:082][288]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.18-20.38.11:814][288]LogSlate: Took 0.005191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.18-20.38.11:947][289]LogSlate: Took 0.005137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.18-20.38.13:196][412]LogSlate: Window 'RunGameMode' being destroyed
+[2018.09.18-20.38.13:598][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.38.16:727][830]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileRampDown.BPFloorTileRampDown
+[2018.09.18-20.38.18:800][ 32]LogRenderer: Reallocating scene render targets to support 1616x1260 Format 10 NumSamples 1 (Frame:1).
+[2018.09.18-20.38.37:832][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.38.37:907][288]BlueprintLog: New page: Compile BPFloorTileRampDown
+[2018.09.18-20.38.40:229][545]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.38.40:249][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.38.40:249][545]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:38:40 PM)
+[2018.09.18-20.38.40:249][545]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.38.40:251][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001726s)
+[2018.09.18-20.38.40:252][545]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.38.40:252][545]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.09.18-20.38.40:252][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002752s)
+[2018.09.18-20.38.40:283][545]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.38.40:290][545]LogInit: FAudioDevice initialized.
+[2018.09.18-20.38.40:323][545]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.38.40:325][545]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.38.40
+[2018.09.18-20.38.40:325][545]LogWorld: Bringing up level for play took: 0.000421
+[2018.09.18-20.38.40:352][545]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.151
+[2018.09.18-20.38.45:965][214]Cmd: RestartLevel
+[2018.09.18-20.38.45:973][215]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.38.45:973][215]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.38.46:007][215]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.38.46:008][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001637s)
+[2018.09.18-20.38.46:009][215]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.38.46:010][215]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2018.09.18-20.38.46:010][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003125s)
+[2018.09.18-20.38.46:010][215]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.38.46:011][215]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.38.46
+[2018.09.18-20.38.46:012][215]LogWorld: Bringing up level for play took: 0.000704
+[2018.09.18-20.38.46:026][215]LogLoad: Took 0.052745 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.38.51:776][902]Cmd: RestartLevel
+[2018.09.18-20.38.51:784][903]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.38.51:784][903]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.38.51:812][903]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.38.51:814][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001726s)
+[2018.09.18-20.38.51:814][903]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.38.51:815][903]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2018.09.18-20.38.51:815][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002959s)
+[2018.09.18-20.38.51:815][903]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.38.51:816][903]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.38.51
+[2018.09.18-20.38.51:816][903]LogWorld: Bringing up level for play took: 0.000599
+[2018.09.18-20.38.51:831][903]LogLoad: Took 0.047156 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.39.15:891][108]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.39.16:372][140]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.39.17:172][197]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.39.18:069][257]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.39.40:270][950]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.39.55:088][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.40.01:912][913]LogEditorViewport: Clicking on Actor (LMB): BPFloorTileRampUp_C (BPFloorTileRampUp5)
+[2018.09.18-20.40.07:935][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.40.11:616][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileRampUp.BPFloorTileRampUp
+[2018.09.18-20.40.15:723][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.40.15:788][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.40.15:835][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.40.15:869][323]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.18-20.40.22:114][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.40.22:214][ 50]BlueprintLog: New page: Compile BPFloorTileRampUp
+[2018.09.18-20.40.23:765][209]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.40.23:788][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.40.23:788][209]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:40:23 PM)
+[2018.09.18-20.40.23:788][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.40.23:790][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001554s)
+[2018.09.18-20.40.23:791][209]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.40.23:791][209]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2018.09.18-20.40.23:791][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002633s)
+[2018.09.18-20.40.23:820][209]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.40.23:826][209]LogInit: FAudioDevice initialized.
+[2018.09.18-20.40.23:857][209]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.40.23:858][209]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.40.23
+[2018.09.18-20.40.23:859][209]LogWorld: Bringing up level for play took: 0.000416
+[2018.09.18-20.40.23:888][209]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.313
+[2018.09.18-20.40.41:547][187]Cmd: RestartLevel
+[2018.09.18-20.40.41:555][188]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.40.41:564][188]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.40.41:603][188]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.40.41:605][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001593s)
+[2018.09.18-20.40.41:606][188]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.40.41:606][188]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2018.09.18-20.40.41:606][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003050s)
+[2018.09.18-20.40.41:606][188]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.40.41:608][188]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.40.41
+[2018.09.18-20.40.41:608][188]LogWorld: Bringing up level for play took: 0.000449
+[2018.09.18-20.40.41:626][188]LogLoad: Took 0.062692 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.40.44:117][484]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.40.44:720][556]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.40.45:737][678]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.40.46:449][763]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.40.47:765][921]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.40.48:591][ 20]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.40.49:191][ 92]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.41.09:022][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.41.47:048][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.41.47:189][603]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileRampUp39CDD272432A78812AC6FFAE5F8A1960.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileRampUp.uasset'
+[2018.09.18-20.41.48:452][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.41.48:491][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.41.48:517][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.41.48:557][757]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.18-20.41.49:854][912]BlueprintLog: New page: Compile BPFloorTileRampUp
+[2018.09.18-20.41.50:508][958]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileRampUp4503B6A64177AD9D05B618897073365C.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileRampUp.uasset'
+[2018.09.18-20.41.52:874][239]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.41.52:900][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.41.52:900][239]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:41:52 PM)
+[2018.09.18-20.41.52:900][239]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.41.52:902][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001560s)
+[2018.09.18-20.41.52:902][239]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.41.52:903][239]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2018.09.18-20.41.52:903][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002650s)
+[2018.09.18-20.41.52:933][239]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.41.52:941][239]LogInit: FAudioDevice initialized.
+[2018.09.18-20.41.52:976][239]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.41.52:977][239]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.41.52
+[2018.09.18-20.41.52:977][239]LogWorld: Bringing up level for play took: 0.000433
+[2018.09.18-20.41.53:010][239]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.81
+[2018.09.18-20.41.54:856][455]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.41.55:300][502]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.41.55:893][573]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.41.56:326][625]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.41.57:710][791]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.41.58:510][887]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.41.59:427][997]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.00:443][119]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.00:943][179]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.17:668][174]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.22:762][715]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.23:142][751]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.24:538][887]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.25:100][941]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.26:105][ 46]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.26:952][137]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.28:887][343]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.29:353][392]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.31:077][569]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.41:275][561]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.42:358][684]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.42:968][751]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.43:335][794]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.43:579][823]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.44:016][875]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.48:191][310]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.42.49:864][473]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.42.57:814][204]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] true
+[2018.09.18-20.43.05:955][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.43.06:010][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.43.06:060][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.43.06:083][889]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.18-20.43.06:846][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.43.15:718][ 34]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.09.18-20.43.50:187][ 91]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.43.52:124][282]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.43.52:149][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.43.52:149][282]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:43:52 PM)
+[2018.09.18-20.43.52:149][282]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.43.52:151][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001656s)
+[2018.09.18-20.43.52:152][282]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.43.52:152][282]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2018.09.18-20.43.52:152][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002671s)
+[2018.09.18-20.43.52:183][282]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.43.52:190][282]LogInit: FAudioDevice initialized.
+[2018.09.18-20.43.52:225][282]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.43.52:226][282]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.43.52
+[2018.09.18-20.43.52:226][282]LogWorld: Bringing up level for play took: 0.000416
+[2018.09.18-20.43.52:252][282]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.053
+[2018.09.18-20.43.59:452][137]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] false
+[2018.09.18-20.44.01:316][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.44.01:358][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.44.01:432][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.44.01:459][360]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.18-20.44.02:813][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.44.25:976][267]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.44.27:629][426]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.44.27:655][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.44.27:655][426]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:44:27 PM)
+[2018.09.18-20.44.27:655][426]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.44.27:656][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001544s)
+[2018.09.18-20.44.27:657][426]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.44.27:657][426]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.09.18-20.44.27:657][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002500s)
+[2018.09.18-20.44.27:689][426]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.44.27:695][426]LogInit: FAudioDevice initialized.
+[2018.09.18-20.44.27:730][426]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.44.27:734][426]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.44.27
+[2018.09.18-20.44.27:735][426]LogWorld: Bringing up level for play took: 0.001356
+[2018.09.18-20.44.27:774][426]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.424
+[2018.09.18-20.44.34:004][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.44.34:041][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.44.34:093][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.44.34:111][170]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.18-20.44.34:711][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.45.56:558][ 34]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.45.58:381][213]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.45.58:406][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.45.58:406][213]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:45:58 PM)
+[2018.09.18-20.45.58:406][213]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.45.58:408][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001833s)
+[2018.09.18-20.45.58:409][213]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.45.58:409][213]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2018.09.18-20.45.58:409][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002805s)
+[2018.09.18-20.45.58:441][213]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.45.58:447][213]LogInit: FAudioDevice initialized.
+[2018.09.18-20.45.58:474][213]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.45.58:476][213]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.45.58
+[2018.09.18-20.45.58:476][213]LogWorld: Bringing up level for play took: 0.000413
+[2018.09.18-20.45.58:505][213]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.308
+[2018.09.18-20.46.08:141][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.46.08:193][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.46.08:247][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.46.08:267][317]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.18-20.46.08:929][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.46.38:629][941]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.46.40:535][131]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.46.40:560][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.46.40:560][131]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:46:40 PM)
+[2018.09.18-20.46.40:561][131]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.46.40:562][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001613s)
+[2018.09.18-20.46.40:563][131]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.46.40:563][131]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.09.18-20.46.40:563][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002512s)
+[2018.09.18-20.46.40:599][131]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.46.40:605][131]LogInit: FAudioDevice initialized.
+[2018.09.18-20.46.40:635][131]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.46.40:637][131]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.46.40
+[2018.09.18-20.46.40:637][131]LogWorld: Bringing up level for play took: 0.000422
+[2018.09.18-20.46.40:667][131]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.47
+[2018.09.18-20.46.43:414][456]Cmd: RestartLevel
+[2018.09.18-20.46.43:421][457]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.46.43:428][457]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.46.43:465][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.46.43:466][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001465s)
+[2018.09.18-20.46.43:467][457]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.46.43:467][457]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2018.09.18-20.46.43:467][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002961s)
+[2018.09.18-20.46.43:468][457]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.46.43:469][457]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.46.43
+[2018.09.18-20.46.43:469][457]LogWorld: Bringing up level for play took: 0.000566
+[2018.09.18-20.46.43:481][457]LogLoad: Took 0.052850 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.47.04:371][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.47.04:416][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.47.04:491][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.47.04:513][828]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.18-20.47.05:215][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.47.33:397][270]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner' took 0.031
+[2018.09.18-20.47.33:399][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.09.18-20.47.33:415][270]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.09.18-20.47.33:415][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.09.18-20.47.33:477][270]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacter_Auto194C158F64811CC6B50C2ED8381320D1C.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.09.18-20.47.33:480][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BPFloorTileRampDown] ([1] browsable assets)...
+[2018.09.18-20.47.33:491][270]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileRampDown.BPFloorTileRampDown]
+[2018.09.18-20.47.33:491][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BPFloorTileRampDown]
+[2018.09.18-20.47.33:522][270]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileRampDown_Auto197B4F2394DAEA5A2377050B246A34427.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BPFloorTileRampDown_Auto1.uasset'
+[2018.09.18-20.47.33:524][270]LogFileHelpers: Auto-saving content packages took 0.125
+[2018.09.18-20.48.16:174][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.48.24:674][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.48.26:069][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPFloorTileBottom.BPFloorTileBottom
+[2018.09.18-20.49.12:616][ 40]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacterA6E52BDA48A3299D277961BE1E73E7EC.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.18-20.49.12:646][ 40]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/BPFloorTileRampDown512C271A46A1E9A3CFF4E9A3088B0CC4.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/BPFloorTileRampDown.uasset'
+[2018.09.18-20.50.20:337][129]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.50.21:585][237]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.50.21:618][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.50.21:618][237]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:50:21 PM)
+[2018.09.18-20.50.21:618][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.50.21:620][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001585s)
+[2018.09.18-20.50.21:620][237]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.50.21:621][237]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2018.09.18-20.50.21:621][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002578s)
+[2018.09.18-20.50.21:653][237]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.50.21:660][237]LogInit: FAudioDevice initialized.
+[2018.09.18-20.50.21:691][237]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.50.21:694][237]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.50.21
+[2018.09.18-20.50.21:695][237]LogWorld: Bringing up level for play took: 0.001421
+[2018.09.18-20.50.21:739][237]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.456
+[2018.09.18-20.50.44:684][830]Cmd: RestartLevel
+[2018.09.18-20.50.44:693][831]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.50.44:701][831]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.50.44:743][831]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.50.44:745][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2018.09.18-20.50.44:746][831]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.50.44:746][831]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2018.09.18-20.50.44:746][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002913s)
+[2018.09.18-20.50.44:746][831]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.50.44:747][831]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.50.44
+[2018.09.18-20.50.44:747][831]LogWorld: Bringing up level for play took: 0.000489
+[2018.09.18-20.50.44:761][831]LogLoad: Took 0.060188 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.50.46:506][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.50.46:544][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.50.46:601][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.50.46:619][ 39]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.09.18-20.50.47:924][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.51.57:751][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.53.49:518][722]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.53.50:953][859]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.53.50:981][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.53.50:981][859]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:53:50 PM)
+[2018.09.18-20.53.50:981][859]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.53.50:983][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001592s)
+[2018.09.18-20.53.50:983][859]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.53.50:984][859]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.09.18-20.53.50:984][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002472s)
+[2018.09.18-20.53.51:019][859]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.53.51:026][859]LogInit: FAudioDevice initialized.
+[2018.09.18-20.53.51:062][859]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.53.51:065][859]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.53.51
+[2018.09.18-20.53.51:066][859]LogWorld: Bringing up level for play took: 0.001323
+[2018.09.18-20.53.51:112][859]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.918
+[2018.09.18-20.54.02:997][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.54.03:035][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.54.03:067][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.54.03:095][274]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.09.18-20.54.03:780][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.54.13:642][531]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.54.16:434][815]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacter18F6240042F096DF717E509F1544B148.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.18-20.54.18:013][  3]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.54.18:048][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.54.18:048][  3]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:54:18 PM)
+[2018.09.18-20.54.18:048][  3]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.54.18:051][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002234s)
+[2018.09.18-20.54.18:052][  3]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.54.18:052][  3]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2018.09.18-20.54.18:052][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003824s)
+[2018.09.18-20.54.18:088][  3]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.54.18:094][  3]LogInit: FAudioDevice initialized.
+[2018.09.18-20.54.18:124][  3]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.54.18:126][  3]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.54.18
+[2018.09.18-20.54.18:126][  3]LogWorld: Bringing up level for play took: 0.000400
+[2018.09.18-20.54.18:149][  3]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.044
+[2018.09.18-20.54.24:531][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.54.24:570][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.54.24:622][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.54.24:639][766]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.09.18-20.54.25:377][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.54.36:016][125]BlueprintLog: New page: Compile RunGameMode
+[2018.09.18-20.54.37:909][325]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.54.37:937][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.54.37:937][325]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:54:37 PM)
+[2018.09.18-20.54.37:937][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.54.37:939][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001738s)
+[2018.09.18-20.54.37:940][325]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.54.37:940][325]LogPlayLevel: PIE: World Init took: (0.001397s)
+[2018.09.18-20.54.37:940][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003248s)
+[2018.09.18-20.54.37:970][325]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.54.37:977][325]LogInit: FAudioDevice initialized.
+[2018.09.18-20.54.38:007][325]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.54.38:009][325]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.54.38
+[2018.09.18-20.54.38:009][325]LogWorld: Bringing up level for play took: 0.000384
+[2018.09.18-20.54.38:037][325]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.156
+[2018.09.18-20.54.39:901][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.54.39:936][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.54.39:969][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.54.40:002][548]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.09.18-20.54.46:453][308]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.55.02:708][173]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.55.04:730][379]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.55.04:759][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.55.04:759][379]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:55:04 PM)
+[2018.09.18-20.55.04:759][379]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.55.04:760][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001485s)
+[2018.09.18-20.55.04:761][379]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.55.04:762][379]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2018.09.18-20.55.04:762][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002797s)
+[2018.09.18-20.55.04:796][379]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.55.04:802][379]LogInit: FAudioDevice initialized.
+[2018.09.18-20.55.04:833][379]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.55.04:835][379]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.55.04
+[2018.09.18-20.55.04:835][379]LogWorld: Bringing up level for play took: 0.000419
+[2018.09.18-20.55.04:862][379]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.669
+[2018.09.18-20.55.07:607][706]Cmd: RestartLevel
+[2018.09.18-20.55.07:615][707]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.55.07:615][707]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.55.07:650][707]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.55.07:651][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001739s)
+[2018.09.18-20.55.07:652][707]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.55.07:653][707]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2018.09.18-20.55.07:653][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003074s)
+[2018.09.18-20.55.07:653][707]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.55.07:654][707]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.55.07
+[2018.09.18-20.55.07:654][707]LogWorld: Bringing up level for play took: 0.000451
+[2018.09.18-20.55.07:670][707]LogLoad: Took 0.054577 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.55.22:832][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.55.22:877][507]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.55.22:945][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.55.22:965][508]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.09.18-20.55.23:668][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.55.31:725][543]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.55.33:244][690]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.55.33:273][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.55.33:273][690]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:55:33 PM)
+[2018.09.18-20.55.33:273][690]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.55.33:274][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001535s)
+[2018.09.18-20.55.33:275][690]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.55.33:275][690]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2018.09.18-20.55.33:276][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002611s)
+[2018.09.18-20.55.33:310][690]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.55.33:316][690]LogInit: FAudioDevice initialized.
+[2018.09.18-20.55.33:346][690]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.55.33:347][690]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.55.33
+[2018.09.18-20.55.33:347][690]LogWorld: Bringing up level for play took: 0.000396
+[2018.09.18-20.55.33:377][690]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.817
+[2018.09.18-20.55.48:148][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.55.48:196][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.55.48:267][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.55.48:286][382]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.09.18-20.55.49:614][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.55.57:717][510]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.55.57:746][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.55.57:746][510]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:55:57 PM)
+[2018.09.18-20.55.57:746][510]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.55.57:747][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001497s)
+[2018.09.18-20.55.57:748][510]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.55.57:748][510]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.09.18-20.55.57:748][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002367s)
+[2018.09.18-20.55.57:783][510]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.55.57:789][510]LogInit: FAudioDevice initialized.
+[2018.09.18-20.55.57:824][510]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.55.57:825][510]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.55.57
+[2018.09.18-20.55.57:825][510]LogWorld: Bringing up level for play took: 0.000408
+[2018.09.18-20.55.57:854][510]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.338
+[2018.09.18-20.56.00:641][841]Cmd: RestartLevel
+[2018.09.18-20.56.00:648][842]LogNet: Browse: /Game/EndlessRunner?restart
+[2018.09.18-20.56.00:649][842]LogLoad: LoadMap: /Game/EndlessRunner
+[2018.09.18-20.56.00:684][842]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.56.00:685][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001621s)
+[2018.09.18-20.56.00:686][842]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.56.00:687][842]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2018.09.18-20.56.00:687][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002916s)
+[2018.09.18-20.56.00:687][842]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.56.00:688][842]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.56.00
+[2018.09.18-20.56.00:688][842]LogWorld: Bringing up level for play took: 0.000437
+[2018.09.18-20.56.00:706][842]LogLoad: Took 0.057539 seconds to LoadMap(/Game/UEDPIE_0_EndlessRunner)
+[2018.09.18-20.56.04:833][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.56.08:612][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.56.19:566][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.56.24:014][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.56.24:060][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.56.24:092][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.56.24:112][409]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.09.18-20.56.25:174][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.57.02:423][968]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.57.07:134][491]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/RunGameMode09B97043440252399C19618D3ACDAB0D.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/RunGameMode.uasset'
+[2018.09.18-20.57.08:871][683]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacterC379DB1D4109C5B3E9C18CA6FF4B5B05.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.09.18-20.57.10:253][847]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.57.10:281][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.57.10:282][847]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:57:10 PM)
+[2018.09.18-20.57.10:282][847]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.57.10:283][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001578s)
+[2018.09.18-20.57.10:284][847]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.57.10:284][847]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2018.09.18-20.57.10:284][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002590s)
+[2018.09.18-20.57.10:316][847]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.57.10:322][847]LogInit: FAudioDevice initialized.
+[2018.09.18-20.57.10:356][847]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.57.10:358][847]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.57.10
+[2018.09.18-20.57.10:358][847]LogWorld: Bringing up level for play took: 0.001006
+[2018.09.18-20.57.10:401][847]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.209
+[2018.09.18-20.57.21:571][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.57.21:609][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.57.21:640][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.57.21:676][178]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.09.18-20.57.24:187][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.57.39:832][351]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.57.39:860][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.57.39:860][351]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:57:39 PM)
+[2018.09.18-20.57.39:861][351]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.57.39:862][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001663s)
+[2018.09.18-20.57.39:863][351]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.57.39:864][351]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2018.09.18-20.57.39:864][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.003044s)
+[2018.09.18-20.57.39:893][351]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.57.39:899][351]LogInit: FAudioDevice initialized.
+[2018.09.18-20.57.39:932][351]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.57.39:934][351]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.57.39
+[2018.09.18-20.57.39:934][351]LogWorld: Bringing up level for play took: 0.000399
+[2018.09.18-20.57.39:962][351]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.23
+[2018.09.18-20.57.53:699][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.57.53:736][996]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.57.53:768][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.57.53:803][999]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.09.18-20.57.56:853][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.57.58:546][537]LogSlate: Window 'Tutorials' being destroyed
+[2018.09.18-20.58.03:021][ 72]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.58.03:050][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.58.03:050][ 72]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:58:03 PM)
+[2018.09.18-20.58.03:050][ 72]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.58.03:052][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001748s)
+[2018.09.18-20.58.03:052][ 72]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.58.03:053][ 72]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.09.18-20.58.03:053][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002567s)
+[2018.09.18-20.58.03:084][ 72]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.58.03:090][ 72]LogInit: FAudioDevice initialized.
+[2018.09.18-20.58.03:124][ 72]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.58.03:126][ 72]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.58.03
+[2018.09.18-20.58.03:126][ 72]LogWorld: Bringing up level for play took: 0.000401
+[2018.09.18-20.58.03:152][ 72]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.96
+[2018.09.18-20.58.30:218][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.58.30:262][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.58.30:327][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.58.30:345][265]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.09.18-20.58.31:940][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.58.36:545][  3]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.58.38:389][191]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.58.38:417][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.58.38:417][191]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:58:38 PM)
+[2018.09.18-20.58.38:417][191]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.58.38:418][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001557s)
+[2018.09.18-20.58.38:419][191]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.58.38:419][191]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2018.09.18-20.58.38:419][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002558s)
+[2018.09.18-20.58.38:454][191]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.58.38:460][191]LogInit: FAudioDevice initialized.
+[2018.09.18-20.58.38:491][191]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.58.38:493][191]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.58.38
+[2018.09.18-20.58.38:493][191]LogWorld: Bringing up level for play took: 0.000403
+[2018.09.18-20.58.38:520][191]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner 0.328
+[2018.09.18-20.59.02:394][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.59.02:439][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-20.59.02:497][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-20.59.02:517][898]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.09.18-20.59.03:696][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-20.59.08:403][598]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.09.18-20.59.10:040][759]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-20.59.10:069][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-20.59.10:069][759]PIE: New page: PIE session: EndlessRunner (Sep 18, 2018, 12:59:10 PM)
+[2018.09.18-20.59.10:069][759]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_EndlessRunner
+[2018.09.18-20.59.10:071][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001579s)
+[2018.09.18-20.59.10:071][759]LogAIModule: Creating AISystem for world EndlessRunner
+[2018.09.18-20.59.10:072][759]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.09.18-20.59.10:072][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner.EndlessRunner to /Game/UEDPIE_0_EndlessRunner.EndlessRunner (0.002689s)
+[2018.09.18-20.59.10:113][759]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-20.59.10:118][759]LogInit: FAudioDevice initialized.
+[2018.09.18-20.59.10:150][759]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.18-20.59.10:151][759]LogWorld: Bringing World /Game/UEDPIE_0_EndlessRunner.EndlessRunner up for play (max tick rate 0) at 2018.09.18-16.59.10
+[2018.09.18-20.59.10:151][759]LogWorld: Bringing up level for play took: 0.000453
+[2018.09.18-20.59.10:178][759]PIE: Play in editor start time for /Game/UEDPIE_0_EndlessRunner -0.014
+[2018.09.18-21.00.19:539][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-21.00.19:594][125]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-21.00.19:657][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-21.00.19:679][126]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.09.18-21.01.28:071][329]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-21.01.29:822][534]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-21.01.29:904][534]LogSavePackage: Moving '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Saved/ThirdPersonCharacterACD37B75490429002AEEED9700979F73.tmp' to '../../../../../../Users/nsshipma/Documents/Shipman_EndlessRunner/Shipman_EndlessRunne/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
